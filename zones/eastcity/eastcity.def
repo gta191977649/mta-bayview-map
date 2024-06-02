@@ -197,4 +197,5 @@
 	<definition id="CT_TUN_LT_2" zone="eastcity" dff="CT_TUN_LT_2" col="CT_TUN_LT_2" txd="eastcity" alphaTransparency="true" lod="false" lodID="false" lodDistance="299" flags="4" doubleSided="true" breakable="false"></definition>
 	<definition id="PAN_AptTower_a" zone="eastcity" dff="PAN_AptTower_a" col="PAN_AptTower_a" txd="eastcity" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="PAN_AptTower_b" zone="eastcity" dff="PAN_AptTower_b" col="PAN_AptTower_b" txd="eastcity" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="PAN_Landmark3" zone="eastcity" dff="PAN_Landmark3" col="PAN_Landmark3" txd="eastcity" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
 </zoneDefinitions>

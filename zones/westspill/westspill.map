@@ -44,7 +44,6 @@
 	<object id="reetLightD_1a_00" model="8585" posX="1102.97815" posY="-956.07013" posZ="22.28727" rotX="0.0" rotY="-0.0" rotZ="39.6560387865887" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1155.36462" posY="-959.40466" posZ="22.65499" rotX="0.0" rotY="-0.0" rotZ="-131.59522361062594" interior="0" dimension="-1"></object>
 	<object id="pportPostE_1a_00" model="8585" posX="1135.02954" posY="-936.81451" posZ="21.67585" rotX="-2.3719698146636965e-05" rotY="-9.242105684167988e-06" rotZ="-42.575635658022435" interior="0" dimension="-1"></object>
-	<object id="Wspill_Bud_GP_00" model="8585" posX="970.00000" posY="-1060.00000" posZ="34.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1133.73706" posY="-934.48737" posZ="25.23913" rotX="0.0" rotY="-0.0" rotZ="136.60265683766627" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1137.94360" posY="-938.42834" posZ="25.23913" rotX="0.0" rotY="-0.0" rotZ="136.60265683766627" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1066.68481" posY="-546.06488" posZ="35.83376" rotX="0.0" rotY="-0.0" rotZ="32.42135620119714" interior="0" dimension="-1"></object>

@@ -9,6 +9,7 @@
 	<file src="zones/viewlight/viewlight.map" type="client" />
 	<file src="zones/westcity/westcity.map" type="client" />
 	<file src="zones/stadium/stadium.map" type="client" />
+	<file src="zones/easthabor/easthabor.map" type="client" />
 	<file src="zones/airport/airport.def" type="client" />
 	<file src="zones/spillway/spillway.def" type="client" />
 	<file src="zones/westspill/westspill.def" type="client" />
@@ -18,6 +19,7 @@
 	<file src="zones/viewlight/viewlight.def" type="client" />
 	<file src="zones/westcity/westcity.def" type="client" />
 	<file src="zones/stadium/stadium.def" type="client" />
+	<file src="zones/easthabor/easthabor.def" type="client" />
 	<file src="zones/airport/dff/reetLightD_1a_00.dff" type="client" />
 	<file src="zones/airport/txd/airport.txd" type="client" />
 	<file src="zones/airport/col/reetLightD_1a_00.col" type="client" />
@@ -311,8 +313,6 @@
 	<file src="zones/westspill/col/eWareA_1a_CK_00.col" type="client" />
 	<file src="zones/westspill/dff/pportPostE_1a_00.dff" type="client" />
 	<file src="zones/westspill/col/pportPostE_1a_00.col" type="client" />
-	<file src="zones/westspill/dff/Wspill_Bud_GP_00.dff" type="client" />
-	<file src="zones/westspill/col/Wspill_Bud_GP_00.col" type="client" />
 	<file src="zones/westspill/dff/RoadA_CHOP_Q6_R5.dff" type="client" />
 	<file src="zones/westspill/col/RoadA_CHOP_Q6_R5.col" type="client" />
 	<file src="zones/westspill/dff/NRND_CHOP_Q6_R1.dff" type="client" />
@@ -1546,6 +1546,8 @@
 	<file src="zones/eastcity/col/PAN_AptTower_a.col" type="client" />
 	<file src="zones/eastcity/dff/PAN_AptTower_b.dff" type="client" />
 	<file src="zones/eastcity/col/PAN_AptTower_b.col" type="client" />
+	<file src="zones/eastcity/dff/PAN_Landmark3.dff" type="client" />
+	<file src="zones/eastcity/col/PAN_Landmark3.col" type="client" />
 	<file src="zones/viewlight/dff/VIEW_SPLIGHT_1.dff" type="client" />
 	<file src="zones/viewlight/txd/viewlight.txd" type="client" />
 	<file src="zones/viewlight/col/VIEW_SPLIGHT_1.col" type="client" />
@@ -1890,8 +1892,6 @@
 	<file src="zones/westcity/col/evronTallA_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/rveA_8M_4a_LL_00.dff" type="client" />
 	<file src="zones/westcity/col/rveA_8M_4a_LL_00.col" type="client" />
-	<file src="zones/westcity/dff/perRowA_1a_AP_00.dff" type="client" />
-	<file src="zones/westcity/col/perRowA_1a_AP_00.col" type="client" />
 	<file src="zones/westcity/dff/rveA_8M_1a_LL_00.dff" type="client" />
 	<file src="zones/westcity/col/rveA_8M_1a_LL_00.col" type="client" />
 	<file src="zones/westcity/dff/rveA_8M_2a_LL_00.dff" type="client" />
@@ -1962,6 +1962,8 @@
 	<file src="zones/westcity/col/nForkLifts_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/CTE_CONST_CRANE.dff" type="client" />
 	<file src="zones/westcity/col/CTE_CONST_CRANE.col" type="client" />
+	<file src="zones/westcity/dff/perRowA_1a_AP_00.dff" type="client" />
+	<file src="zones/westcity/col/perRowA_1a_AP_00.col" type="client" />
 	<file src="zones/westcity/dff/W_Modern_A_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/W_Modern_A_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/CTE_CONST_SITE.dff" type="client" />
@@ -2107,16 +2109,16 @@
 	<file src="zones/stadium/col/shOverhang_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/Flowers_1a_RB_00.dff" type="client" />
 	<file src="zones/stadium/col/Flowers_1a_RB_00.col" type="client" />
-	<file src="zones/stadium/dff/rveA_8M_2a_LL_00.dff" type="client" />
-	<file src="zones/stadium/col/rveA_8M_2a_LL_00.col" type="client" />
 	<file src="zones/stadium/dff/ardMend_1a_MK_00.dff" type="client" />
 	<file src="zones/stadium/col/ardMend_1a_MK_00.col" type="client" />
 	<file src="zones/stadium/dff/LightWallA_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/LightWallA_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/evronTallA_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/evronTallA_1a_00.col" type="client" />
-	<file src="zones/stadium/dff/perRowA_1a_AP_00.dff" type="client" />
-	<file src="zones/stadium/col/perRowA_1a_AP_00.col" type="client" />
+	<file src="zones/stadium/dff/CS_Tree_BUSH.dff" type="client" />
+	<file src="zones/stadium/col/CS_Tree_BUSH.col" type="client" />
+	<file src="zones/stadium/dff/CS_Tree_BUSH2.dff" type="client" />
+	<file src="zones/stadium/col/CS_Tree_BUSH2.col" type="client" />
 	<file src="zones/stadium/dff/shMullC_1b_RB_00.dff" type="client" />
 	<file src="zones/stadium/col/shMullC_1b_RB_00.col" type="client" />
 	<file src="zones/stadium/dff/veA_End_1a_LL_00.dff" type="client" />
@@ -2139,6 +2141,8 @@
 	<file src="zones/stadium/col/ourtLightB_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/MegaLightA_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/MegaLightA_1a_00.col" type="client" />
+	<file src="zones/stadium/dff/CS_Tree_BUSH3.dff" type="client" />
+	<file src="zones/stadium/col/CS_Tree_BUSH3.col" type="client" />
 	<file src="zones/stadium/dff/MonumentC_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/MonumentC_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/lmCoconutA_1b_00.dff" type="client" />
@@ -2147,14 +2151,14 @@
 	<file src="zones/stadium/col/enTreeA_2a_RR_00.col" type="client" />
 	<file src="zones/stadium/dff/ushBambooA_1b_00.dff" type="client" />
 	<file src="zones/stadium/col/ushBambooA_1b_00.col" type="client" />
-	<file src="zones/stadium/dff/geMul_A_1a_AP_00.dff" type="client" />
-	<file src="zones/stadium/col/geMul_A_1a_AP_00.col" type="client" />
 	<file src="zones/stadium/dff/CS_1a_LL_1.dff" type="client" />
 	<file src="zones/stadium/col/CS_1a_LL_1.col" type="client" />
 	<file src="zones/stadium/dff/eebaseA_1a_LL_00.dff" type="client" />
 	<file src="zones/stadium/col/eebaseA_1a_LL_00.col" type="client" />
 	<file src="zones/stadium/dff/C_RdBdGd_R_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/C_RdBdGd_R_1a_00.col" type="client" />
+	<file src="zones/stadium/dff/geMul_A_1a_AP_00.dff" type="client" />
+	<file src="zones/stadium/col/geMul_A_1a_AP_00.col" type="client" />
 	<file src="zones/stadium/dff/yMoore2_1a_RB_00.dff" type="client" />
 	<file src="zones/stadium/col/yMoore2_1a_RB_00.col" type="client" />
 	<file src="zones/stadium/dff/raightA_1a_RB_00.dff" type="client" />
@@ -2257,8 +2261,6 @@
 	<file src="zones/stadium/col/rdPostA_1a_AP_00.col" type="client" />
 	<file src="zones/stadium/dff/ierStripeA_1b_00.dff" type="client" />
 	<file src="zones/stadium/col/ierStripeA_1b_00.col" type="client" />
-	<file src="zones/stadium/dff/eenBarrier_1b_00.dff" type="client" />
-	<file src="zones/stadium/col/eenBarrier_1b_00.col" type="client" />
 	<file src="zones/stadium/dff/Park_King_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/Park_King_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/urityLiteA_1a_00.dff" type="client" />
@@ -2285,8 +2287,6 @@
 	<file src="zones/stadium/col/Bbottom_1a_RB_00.col" type="client" />
 	<file src="zones/stadium/dff/S_PontiacB_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/S_PontiacB_1a_00.col" type="client" />
-	<file src="zones/stadium/dff/lGuardA_1b_AP_00.dff" type="client" />
-	<file src="zones/stadium/col/lGuardA_1b_AP_00.col" type="client" />
 	<file src="zones/stadium/dff/way_Navy_S_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/way_Navy_S_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/way_Navy_G_1a_00.dff" type="client" />
@@ -2359,18 +2359,12 @@
 	<file src="zones/stadium/col/C_OoBdRd_S_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/lmPlanterA_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/lmPlanterA_1a_00.col" type="client" />
-	<file src="zones/stadium/dff/arrierA_1a_MK_00.dff" type="client" />
-	<file src="zones/stadium/col/arrierA_1a_MK_00.col" type="client" />
-	<file src="zones/stadium/dff/paPlaza_1a_RB_00.dff" type="client" />
-	<file src="zones/stadium/col/paPlaza_1a_RB_00.col" type="client" />
 	<file src="zones/stadium/dff/atBentA_1a_RB_00.dff" type="client" />
 	<file src="zones/stadium/col/atBentA_1a_RB_00.col" type="client" />
 	<file src="zones/stadium/dff/FORMANCE_1a_RR_0.dff" type="client" />
 	<file src="zones/stadium/col/FORMANCE_1a_RR_0.col" type="client" />
 	<file src="zones/stadium/dff/Campbells2_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/Campbells2_1a_00.col" type="client" />
-	<file src="zones/stadium/dff/uardB8m_1b_AP_00.dff" type="client" />
-	<file src="zones/stadium/col/uardB8m_1b_AP_00.col" type="client" />
 	<file src="zones/stadium/dff/pice_Small_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/pice_Small_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/STD_FroeamA.dff" type="client" />
@@ -2381,6 +2375,8 @@
 	<file src="zones/stadium/col/ShrubberyA_1b_00.col" type="client" />
 	<file src="zones/stadium/dff/CS_gCondoA.dff" type="client" />
 	<file src="zones/stadium/col/CS_gCondoA.col" type="client" />
+	<file src="zones/stadium/dff/eenBarrier_1b_00.dff" type="client" />
+	<file src="zones/stadium/col/eenBarrier_1b_00.col" type="client" />
 	<file src="zones/stadium/dff/BdGdOo_FN_1a_00.dff" type="client" />
 	<file src="zones/stadium/col/BdGdOo_FN_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/CS_Tree_GP_3.dff" type="client" />
@@ -2413,12 +2409,6 @@
 	<file src="zones/stadium/col/llCondo_1a_RB_02.col" type="client" />
 	<file src="zones/stadium/dff/NRND_CHOP_F7_R0.dff" type="client" />
 	<file src="zones/stadium/col/NRND_CHOP_F7_R0.col" type="client" />
-	<file src="zones/stadium/dff/rainA_CHOP_F14_0.dff" type="client" />
-	<file src="zones/stadium/col/rainA_CHOP_F14_0.col" type="client" />
-	<file src="zones/stadium/dff/nA_NR_CHOP_F17_0.dff" type="client" />
-	<file src="zones/stadium/col/nA_NR_CHOP_F17_0.col" type="client" />
-	<file src="zones/stadium/dff/A_NR_CHOP_F17_R0.dff" type="client" />
-	<file src="zones/stadium/col/A_NR_CHOP_F17_R0.col" type="client" />
 	<file src="zones/stadium/dff/NRND_CHOP_F17_0.dff" type="client" />
 	<file src="zones/stadium/col/NRND_CHOP_F17_0.col" type="client" />
 	<file src="zones/stadium/dff/CS_Casino_BD.dff" type="client" />
@@ -2435,5 +2425,474 @@
 	<file src="zones/stadium/col/CS_LowMart.col" type="client" />
 	<file src="zones/stadium/dff/Object001.dff" type="client" />
 	<file src="zones/stadium/col/Object001.col" type="client" />
+	<file src="zones/easthabor/dff/ETH-idgeB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/txd/easthabor.txd" type="client" />
+	<file src="zones/easthabor/col/ETH-idgeB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/iaTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/iaTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/MegaLightA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/MegaLightA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/reetLightC_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/reetLightC_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/LightPoleA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/LightPoleA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/way_Navy_K_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/way_Navy_K_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/way_Navy_L_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/way_Navy_L_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/Navy_North_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/Navy_North_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/S_PontiacB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/S_PontiacB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/rbagePileA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/rbagePileA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/htPoleG_1a_GH_00.dff" type="client" />
+	<file src="zones/easthabor/col/htPoleG_1a_GH_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_GAS_BIN_2.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_GAS_BIN_2.col" type="client" />
+	<file src="zones/easthabor/dff/IP_Pallet_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/IP_Pallet_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_58.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_58.col" type="client" />
+	<file src="zones/easthabor/dff/ignHardhat_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ignHardhat_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EH_CONST_A.dff" type="client" />
+	<file src="zones/easthabor/col/EH_CONST_A.col" type="client" />
+	<file src="zones/easthabor/dff/ingLEndTop_1z_00.dff" type="client" />
+	<file src="zones/easthabor/col/ingLEndTop_1z_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_55.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_55.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_57.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_57.col" type="client" />
+	<file src="zones/easthabor/dff/GrassLine_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/GrassLine_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/EH_TowerB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/EH_TowerB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/LightPoleB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/LightPoleB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/ulbAOrange_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ulbAOrange_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/enTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/enTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/usTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/usTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/eNeckLight_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/eNeckLight_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/eetLightCb_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/eetLightCb_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/way_Navy_S_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/way_Navy_S_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/TreewallA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/TreewallA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/rail_A_1a_FWY_00.dff" type="client" />
+	<file src="zones/easthabor/col/rail_A_1a_FWY_00.col" type="client" />
+	<file src="zones/easthabor/dff/rail_C_1a_FWY_00.dff" type="client" />
+	<file src="zones/easthabor/col/rail_C_1a_FWY_00.col" type="client" />
+	<file src="zones/easthabor/dff/onument_1a_MD_00.dff" type="client" />
+	<file src="zones/easthabor/col/onument_1a_MD_00.col" type="client" />
+	<file src="zones/easthabor/dff/ForestDead_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/ForestDead_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/GrassClump_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/GrassClump_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_52.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_52.col" type="client" />
+	<file src="zones/easthabor/dff/ngingLight_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ngingLight_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/htPoleD_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/htPoleD_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/htPoleF_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/htPoleF_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/ashBarrelA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ashBarrelA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/eetLightCc_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/eetLightCc_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/reetLightD_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/reetLightD_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/fficLightC_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/fficLightC_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/way_LightB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/way_LightB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/rickStackA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/rickStackA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/P_Pallet2B_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/P_Pallet2B_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_25.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_25.col" type="client" />
+	<file src="zones/easthabor/dff/P_BlueBox3_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/P_BlueBox3_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/pStackA_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/pStackA_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/lerLightsB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/lerLightsB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_24.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_24.col" type="client" />
+	<file src="zones/easthabor/dff/Garbagecan_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/Garbagecan_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/XO_IP_Wood_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/XO_IP_Wood_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/lbAOrangeB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/lbAOrangeB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/eilingLitA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/eilingLitA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EngineA_1a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/EngineA_1a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/TankerA_1a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/TankerA_1a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/BoxCarA_1a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/BoxCarA_1a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/nGrainB_1a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/nGrainB_1a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_36.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_36.col" type="client" />
+	<file src="zones/easthabor/dff/EH_GAS_BIN_1.dff" type="client" />
+	<file src="zones/easthabor/col/EH_GAS_BIN_1.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_51.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_51.col" type="client" />
+	<file src="zones/easthabor/dff/XO_IP_WBOX_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/XO_IP_WBOX_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/LampBulbA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/LampBulbA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/SPOT_LT.dff" type="client" />
+	<file src="zones/easthabor/col/SPOT_LT.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_35.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_35.col" type="client" />
+	<file src="zones/easthabor/dff/elGuirderB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/elGuirderB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/ardMend_1a_MK_00.dff" type="client" />
+	<file src="zones/easthabor/col/ardMend_1a_MK_00.col" type="client" />
+	<file src="zones/easthabor/dff/nopyLightA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/nopyLightA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/ngingLight_2a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ngingLight_2a_00.col" type="client" />
+	<file src="zones/easthabor/dff/treetPostA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/treetPostA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/CIALTIES_1a_RR_0.dff" type="client" />
+	<file src="zones/easthabor/col/CIALTIES_1a_RR_0.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_2.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_2.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_4.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_4.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_6.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_6.col" type="client" />
+	<file src="zones/easthabor/dff/pTruckBody_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/pTruckBody_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_5.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_5.col" type="client" />
+	<file src="zones/easthabor/dff/EH_Prop_1.dff" type="client" />
+	<file src="zones/easthabor/col/EH_Prop_1.col" type="client" />
+	<file src="zones/easthabor/dff/rPieceA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/rPieceA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/rPieceB_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/rPieceB_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/GrassLine_3b_00.dff" type="client" />
+	<file src="zones/easthabor/col/GrassLine_3b_00.col" type="client" />
+	<file src="zones/easthabor/dff/rPieceC_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/rPieceC_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHShopA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/EHShopA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/rPieceD_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/rPieceD_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/tlightA_1a_RR_00.dff" type="client" />
+	<file src="zones/easthabor/col/tlightA_1a_RR_00.col" type="client" />
+	<file src="zones/easthabor/dff/ightWallCc_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ightWallCc_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/ightCableA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ightCableA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/oZoneBlack_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/oZoneBlack_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EH_FWY_1.dff" type="client" />
+	<file src="zones/easthabor/col/EH_FWY_1.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_18.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_18.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_23.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_23.col" type="client" />
+	<file src="zones/easthabor/dff/EH_BRD_3.dff" type="client" />
+	<file src="zones/easthabor/col/EH_BRD_3.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_22.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_22.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_14.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_14.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_17.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_17.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_15.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_15.col" type="client" />
+	<file src="zones/easthabor/dff/oconutA_2a_RR_00.dff" type="client" />
+	<file src="zones/easthabor/col/oconutA_2a_RR_00.col" type="client" />
+	<file src="zones/easthabor/dff/MedianPole_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/MedianPole_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/am_BODY_1a_RR_00.dff" type="client" />
+	<file src="zones/easthabor/col/am_BODY_1a_RR_00.col" type="client" />
+	<file src="zones/easthabor/dff/enTreeA_2a_RR_00.dff" type="client" />
+	<file src="zones/easthabor/col/enTreeA_2a_RR_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_34.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_34.col" type="client" />
+	<file src="zones/easthabor/dff/ShrubberyA_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/ShrubberyA_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/uniperA_1a_AP_00.dff" type="client" />
+	<file src="zones/easthabor/col/uniperA_1a_AP_00.col" type="client" />
+	<file src="zones/easthabor/dff/SpotlightY_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/SpotlightY_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_Tree_GP_2.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_Tree_GP_2.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_41.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_41.col" type="client" />
+	<file src="zones/easthabor/dff/arbageBinA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/arbageBinA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/way_Pole_A_1z_00.dff" type="client" />
+	<file src="zones/easthabor/col/way_Pole_A_1z_00.col" type="client" />
+	<file src="zones/easthabor/dff/RailCrossA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/RailCrossA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/XW_FenceB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/XW_FenceB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_9.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_9.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_10.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_10.col" type="client" />
+	<file src="zones/easthabor/dff/EH_BRD_01.dff" type="client" />
+	<file src="zones/easthabor/col/EH_BRD_01.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_11.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_11.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_3.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_3.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_7.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_7.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_BUILD_S_1.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_BUILD_S_1.col" type="client" />
+	<file src="zones/easthabor/dff/V_TopTruck_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/V_TopTruck_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/CingularA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/CingularA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/reetLightF_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/reetLightF_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/LampBulbA_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/LampBulbA_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_38.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_38.col" type="client" />
+	<file src="zones/easthabor/dff/hDenseB_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/hDenseB_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_40.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_40.col" type="client" />
+	<file src="zones/easthabor/dff/veA_End_1a_LL_00.dff" type="client" />
+	<file src="zones/easthabor/col/veA_End_1a_LL_00.col" type="client" />
+	<file src="zones/easthabor/dff/TankLargeB_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/TankLargeB_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/CrateB_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/CrateB_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/gTowerA_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/gTowerA_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/CargoshipA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/CargoshipA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_Tree_GP_1.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_Tree_GP_1.col" type="client" />
+	<file src="zones/easthabor/dff/nkLineA_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/nkLineA_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/EH_ePileA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/EH_ePileA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_21.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_21.col" type="client" />
+	<file src="zones/easthabor/dff/INDIST_BRD_1.dff" type="client" />
+	<file src="zones/easthabor/col/INDIST_BRD_1.col" type="client" />
+	<file src="zones/easthabor/dff/EH_nkD_2a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/EH_nkD_2a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/htGreen_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/htGreen_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_28.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_28.col" type="client" />
+	<file src="zones/easthabor/dff/PathGuardC_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/PathGuardC_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/erTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/erTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_59.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_59.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J2_R2.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J2_R2.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J3_R4.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J3_R4.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J4_R3.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J4_R3.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J7_R3.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J7_R3.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J8_R0.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J8_R0.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J9_R6.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J9_R6.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J11_R1.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J11_R1.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J12_R0.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J12_R0.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J13_R0.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J13_R0.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J14_R3.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J14_R3.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J15_R1.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J15_R1.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J16_R5.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J16_R5.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_J17_R0.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_J17_R0.col" type="client" />
+	<file src="zones/easthabor/dff/heMillA_1a_MD_00.dff" type="client" />
+	<file src="zones/easthabor/col/heMillA_1a_MD_00.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_N19_R0.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_N19_R0.col" type="client" />
+	<file src="zones/easthabor/dff/XS_Edge_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/XS_Edge_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EH_INDST_PIPE_1.dff" type="client" />
+	<file src="zones/easthabor/col/EH_INDST_PIPE_1.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_49.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_49.col" type="client" />
+	<file src="zones/easthabor/dff/PipeBendC_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/PipeBendC_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/CrateA_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/CrateA_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_48.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_48.col" type="client" />
+	<file src="zones/easthabor/dff/ightOrange_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ightOrange_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_44.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_44.col" type="client" />
+	<file src="zones/easthabor/dff/ngGasSignA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/ngGasSignA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/asPumpB_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/asPumpB_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/PropTankA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/PropTankA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_GAS_STA_01.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_GAS_STA_01.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_50.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_50.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_46.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_46.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_54.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_54.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_56.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_56.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_53.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_53.col" type="client" />
+	<file src="zones/easthabor/dff/gerKingBig_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/gerKingBig_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/ildingB_1a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/ildingB_1a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_29.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_29.col" type="client" />
+	<file src="zones/easthabor/dff/PillarA_1a_CK_00.dff" type="client" />
+	<file src="zones/easthabor/col/PillarA_1a_CK_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_39.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_39.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_37.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_37.col" type="client" />
+	<file src="zones/easthabor/dff/CARLOT_1a_RR_00.dff" type="client" />
+	<file src="zones/easthabor/col/CARLOT_1a_RR_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_33.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_33.col" type="client" />
+	<file src="zones/easthabor/dff/PathGuardA_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/PathGuardA_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/lanterSetB_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/lanterSetB_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_42.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_42.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_32.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_32.col" type="client" />
+	<file src="zones/easthabor/dff/EH_LotA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/EH_LotA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/rKingSF_1a_LV_00.dff" type="client" />
+	<file src="zones/easthabor/col/rKingSF_1a_LV_00.col" type="client" />
+	<file src="zones/easthabor/dff/pFlareB_1a_MD_00.dff" type="client" />
+	<file src="zones/easthabor/col/pFlareB_1a_MD_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_47.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_47.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_46_LT.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_46_LT.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_26.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_26.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_27.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_27.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_31.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_31.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_30.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_30.col" type="client" />
+	<file src="zones/easthabor/dff/gularSF_1a_LV_00.dff" type="client" />
+	<file src="zones/easthabor/col/gularSF_1a_LV_00.col" type="client" />
+	<file src="zones/easthabor/dff/RAPHICS_1a_RR_00.dff" type="client" />
+	<file src="zones/easthabor/col/RAPHICS_1a_RR_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_8.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_8.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_12.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_12.col" type="client" />
+	<file src="zones/easthabor/dff/EHshopA_1a_RB_00.dff" type="client" />
+	<file src="zones/easthabor/col/EHshopA_1a_RB_00.col" type="client" />
+	<file src="zones/easthabor/dff/EH_BRD_2.dff" type="client" />
+	<file src="zones/easthabor/col/EH_BRD_2.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_20.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_20.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_13.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_13.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_19.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_19.col" type="client" />
+	<file src="zones/easthabor/dff/EngineB_1a_BS_00.dff" type="client" />
+	<file src="zones/easthabor/col/EngineB_1a_BS_00.col" type="client" />
+	<file src="zones/easthabor/dff/dlightA_1a_BC_00.dff" type="client" />
+	<file src="zones/easthabor/col/dlightA_1a_BC_00.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_45.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_45.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_43.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_43.col" type="client" />
+	<file src="zones/easthabor/dff/ETHB_BUILD_S_2.dff" type="client" />
+	<file src="zones/easthabor/col/ETHB_BUILD_S_2.col" type="client" />
+	<file src="zones/easthabor/dff/4MFence_1a_GH_00.dff" type="client" />
+	<file src="zones/easthabor/col/4MFence_1a_GH_00.col" type="client" />
+	<file src="zones/easthabor/dff/IP_Gate4m_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/IP_Gate4m_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/V_BoxTruck_1a_00.dff" type="client" />
+	<file src="zones/easthabor/col/V_BoxTruck_1a_00.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_I6_R3.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_I6_R3.col" type="client" />
+	<file src="zones/easthabor/dff/nA_NR_CHOP_I7_R3.dff" type="client" />
+	<file src="zones/easthabor/col/nA_NR_CHOP_I7_R3.col" type="client" />
+	<file src="zones/easthabor/dff/inA_NR_CHOP_I8_2.dff" type="client" />
+	<file src="zones/easthabor/col/inA_NR_CHOP_I8_2.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_I9_R7.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_I9_R7.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_I10_R4.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_I10_R4.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_I11_R1.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_I11_R1.col" type="client" />
+	<file src="zones/easthabor/dff/nA_NR_CHOP_I12_2.dff" type="client" />
+	<file src="zones/easthabor/col/nA_NR_CHOP_I12_2.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_I13_R6.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_I13_R6.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_I14_R0.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_I14_R0.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_I16_R0.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_I16_R0.col" type="client" />
+	<file src="zones/easthabor/dff/oadA_CHOP_I17_R2.dff" type="client" />
+	<file src="zones/easthabor/col/oadA_CHOP_I17_R2.col" type="client" />
+	<file src="zones/easthabor/dff/P_AK7CPU_R_1b_00.dff" type="client" />
+	<file src="zones/easthabor/col/P_AK7CPU_R_1b_00.col" type="client" />
+	<file src="zones/easthabor/dff/A_NR_CHOP_J5.dff" type="client" />
+	<file src="zones/easthabor/col/A_NR_CHOP_J5.col" type="client" />
+	<file src="zones/easthabor/dff/HH_SteelRailinPT.dff" type="client" />
+	<file src="zones/easthabor/col/HH_SteelRailinPT.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J2_R1.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J2_R1.col" type="client" />
+	<file src="zones/easthabor/dff/FORMANCE_1a_RR_0.dff" type="client" />
+	<file src="zones/easthabor/col/FORMANCE_1a_RR_0.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_64.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_64.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_60.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_60.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_66.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_66.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_63.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_63.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_65.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_65.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_62.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_62.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_61.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_61.col" type="client" />
+	<file src="zones/easthabor/dff/EHB_PROP_67.dff" type="client" />
+	<file src="zones/easthabor/col/EHB_PROP_67.col" type="client" />
+	<file src="zones/easthabor/dff/RoadA_CHOP_J9_RB.dff" type="client" />
+	<file src="zones/easthabor/col/RoadA_CHOP_J9_RB.col" type="client" />
 	<file src="eagleZones.txt" type="client" />
 </meta>

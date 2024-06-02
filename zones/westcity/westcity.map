@@ -924,7 +924,6 @@
 	<object id="Flowers_1a_RB_00" model="8585" posX="-526.71075" posY="-462.42712" posZ="19.41389" rotX="3.7341574076503226" rotY="-0.5137646309171803" rotZ="-0.5822667576392266" interior="0" dimension="-1"></object>
 	<object id="Flowers_1a_RB_00" model="8585" posX="-548.33063" posY="-494.22522" posZ="18.26656" rotX="0.0" rotY="-0.0" rotZ="-92.92105554437502" interior="0" dimension="-1"></object>
 	<object id="rveA_8M_4a_LL_00" model="8585" posX="-589.97296" posY="-502.15588" posZ="17.88010" rotX="-0.0009562225710538328" rotY="-0.29337039245806845" rotZ="-152.6740201905735" interior="0" dimension="-1"></object>
-	<object id="perRowA_1a_AP_00" model="8585" posX="-588.03815" posY="-555.51941" posZ="17.01712" rotX="0.00023482060627634448" rotY="3.3829086227157106e-06" rotZ="91.08072052962764" interior="0" dimension="-1"></object>
 	<object id="rveA_8M_1a_LL_00" model="8585" posX="-593.06708" posY="-536.47852" posZ="18.00870" rotX="-0.0009290006961255493" rotY="0.45270770415003897" rotZ="34.607272140233476" interior="0" dimension="-1"></object>
 	<object id="Flowers_1a_RB_00" model="8585" posX="-538.21722" posY="-495.11874" posZ="18.26561" rotX="-0.0001639250173789672" rotY="1.7579825182592832e-06" rotZ="86.5895562064132" interior="0" dimension="-1"></object>
 	<object id="rveA_8M_2a_LL_00" model="8585" posX="-578.61523" posY="-498.23160" posZ="17.82944" rotX="-0.0010108758770160547" rotY="-0.24170679685093377" rotZ="-160.94029153136213" interior="0" dimension="-1"></object>
@@ -1007,7 +1006,7 @@
 	<object id="evronTallA_1a_00" model="8585" posX="-502.20190" posY="-431.47913" posZ="23.19718" rotX="0.0" rotY="-0.0" rotZ="128.75592803830546" interior="0" dimension="-1"></object>
 	<object id="shMullD_1a_RB_00" model="8585" posX="-522.37366" posY="-430.20978" posZ="22.02465" rotX="-4.203565776474973" rotY="0.5215250985524502" rotZ="-178.99792602167642" interior="0" dimension="-1"></object>
 	<object id="shMullD_1a_RB_00" model="8585" posX="-565.21423" posY="-421.77493" posZ="22.56874" rotX="0.003616979131576163" rotY="0.3179269595126625" rotZ="-85.05324071466549" interior="0" dimension="-1"></object>
-	<object id="XV_Digger_1a_00" model="8585" posX="-460.05579" posY="-413.92429" posZ="20.98151" rotX="2.06135858771935" rotY="0.656137564827111" rotZ="-74.46081640082623" interior="0" dimension="-1"></object>
+	<object id="XV_Digger_1a_00" model="8585" posX="-121.83555" posY="-1384.76672" posZ="13.49070" rotX="0.0" rotY="-0.0" rotZ="144.48427852641635" interior="0" dimension="-1"></object>
 	<object id="XV_Digger_1a_00" model="8585" posX="-490.35538" posY="-396.74963" posZ="22.36376" rotX="4.417817616438728" rotY="0.001272357059588508" rotZ="30.43508371576989" interior="0" dimension="-1"></object>
 	<object id="W_BarrierC_1b_00" model="8585" posX="-429.10309" posY="-427.76859" posZ="20.82531" rotX="0.001162130106867474" rotY="-0.9970715210306238" rotZ="165.65296890079614" interior="0" dimension="-1"></object>
 	<object id="W_BarrierC_1b_00" model="8585" posX="-462.92819" posY="-419.13602" posZ="21.42292" rotX="0.0013605447951495588" rotY="-0.7107768280917093" rotZ="166.69442906377844" interior="0" dimension="-1"></object>

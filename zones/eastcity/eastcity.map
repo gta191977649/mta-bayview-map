@@ -1295,4 +1295,5 @@
 	<object id="CT_TUN_LT_2" model="8585" posX="-188.20949" posY="-60.55273" posZ="34.20122" rotX="-78.83822666324255" rotY="-6.7844200481320796" rotZ="92.50655631461814" interior="0" dimension="-1"></object>
 	<object id="PAN_AptTower_a" model="8585" posX="617.00000" posY="699.00000" posZ="67.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="PAN_AptTower_b" model="8585" posX="813.00000" posY="446.00000" posZ="67.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="PAN_Landmark3" model="8585" posX="-12.00000" posY="186.00000" posZ="157.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 </map>

@@ -2896,8 +2896,10 @@
 	<file src="zones/easthabor/col/EHB_PROP_67.col" type="client" />
 	<file src="zones/easthabor/dff/RoadA_CHOP_J9_RB.dff" type="client" />
 	<file src="zones/easthabor/col/RoadA_CHOP_J9_RB.col" type="client" />
+	<file src="zones/westhabor/dff/nopyLightA_1a_00.dff" type="client" />
+	<file src="zones/westhabor/txd/easthabor.txd" type="client" />
+	<file src="zones/westhabor/col/nopyLightA_1a_00.col" type="client" />
 	<file src="zones/westhabor/dff/ulbAOrange_1a_00.dff" type="client" />
-	<file src="zones/westhabor/txd/westhabor.txd" type="client" />
 	<file src="zones/westhabor/col/ulbAOrange_1a_00.col" type="client" />
 	<file src="zones/westhabor/dff/MFenceB_1a_BS_00.dff" type="client" />
 	<file src="zones/westhabor/col/MFenceB_1a_BS_00.col" type="client" />
@@ -3045,8 +3047,6 @@
 	<file src="zones/westhabor/col/pFlareA_2a_CK_00.col" type="client" />
 	<file src="zones/westhabor/dff/pFlareA_3a_CK_00.dff" type="client" />
 	<file src="zones/westhabor/col/pFlareA_3a_CK_00.col" type="client" />
-	<file src="zones/westhabor/dff/ainerStack_2a_00.dff" type="client" />
-	<file src="zones/westhabor/col/ainerStack_2a_00.col" type="client" />
 	<file src="zones/westhabor/dff/pFlareA_1a_CK_00.dff" type="client" />
 	<file src="zones/westhabor/col/pFlareA_1a_CK_00.col" type="client" />
 	<file src="zones/westhabor/dff/WH_PileA_1a_00.dff" type="client" />
@@ -3057,8 +3057,6 @@
 	<file src="zones/westhabor/col/lightMask_MD_03.col" type="client" />
 	<file src="zones/westhabor/dff/eMobile_1a_CK_00.dff" type="client" />
 	<file src="zones/westhabor/col/eMobile_1a_CK_00.col" type="client" />
-	<file src="zones/westhabor/dff/nopyLightA_1a_00.dff" type="client" />
-	<file src="zones/westhabor/col/nopyLightA_1a_00.col" type="client" />
 	<file src="zones/westhabor/dff/WH_1a_PF_00.dff" type="client" />
 	<file src="zones/westhabor/col/WH_1a_PF_00.col" type="client" />
 	<file src="zones/westhabor/dff/WH_1a_CK_00.dff" type="client" />

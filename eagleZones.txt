@@ -8,3 +8,4 @@ viewlight
 westcity
 stadium
 easthabor
+westhabor

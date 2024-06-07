@@ -2897,7 +2897,7 @@
 	<file src="zones/easthabor/dff/RoadA_CHOP_J9_RB.dff" type="client" />
 	<file src="zones/easthabor/col/RoadA_CHOP_J9_RB.col" type="client" />
 	<file src="zones/westhabor/dff/nopyLightA_1a_00.dff" type="client" />
-	<file src="zones/westhabor/txd/easthabor.txd" type="client" />
+	<file src="zones/westhabor/txd/westhabor.txd" type="client" />
 	<file src="zones/westhabor/col/nopyLightA_1a_00.col" type="client" />
 	<file src="zones/westhabor/dff/ulbAOrange_1a_00.dff" type="client" />
 	<file src="zones/westhabor/col/ulbAOrange_1a_00.col" type="client" />

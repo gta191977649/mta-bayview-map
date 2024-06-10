@@ -11,6 +11,7 @@
 	<file src="zones/stadium/stadium.map" type="client" />
 	<file src="zones/easthabor/easthabor.map" type="client" />
 	<file src="zones/westhabor/westhabor.map" type="client" />
+	<file src="zones/beconhill/beconhill.map" type="client" />
 	<file src="zones/airport/airport.def" type="client" />
 	<file src="zones/spillway/spillway.def" type="client" />
 	<file src="zones/westspill/westspill.def" type="client" />
@@ -22,6 +23,7 @@
 	<file src="zones/stadium/stadium.def" type="client" />
 	<file src="zones/easthabor/easthabor.def" type="client" />
 	<file src="zones/westhabor/westhabor.def" type="client" />
+	<file src="zones/beconhill/beconhill.def" type="client" />
 	<file src="zones/airport/dff/reetLightD_1a_00.dff" type="client" />
 	<file src="zones/airport/txd/airport.txd" type="client" />
 	<file src="zones/airport/col/reetLightD_1a_00.col" type="client" />
@@ -3357,5 +3359,34 @@
 	<file src="zones/westhabor/col/RoadA_CHOP_I8_R1.col" type="client" />
 	<file src="zones/westhabor/dff/WH_FactoryD.dff" type="client" />
 	<file src="zones/westhabor/col/WH_FactoryD.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C15_R4.dff" type="client" />
+	<file src="zones/beconhill/txd/beconhill.txd" type="client" />
+	<file src="zones/beconhill/col/oadA_CHOP_C15_R4.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D1_R7.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D1_R7.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D2_R5.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D2_R5.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D4_R0.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D4_R0.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D5_R0.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D5_R0.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D7_R5.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D7_R5.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C18_R0.dff" type="client" />
+	<file src="zones/beconhill/col/oadA_CHOP_C18_R0.col" type="client" />
+	<file src="zones/beconhill/dff/ROADA_CHOP_D6_1.dff" type="client" />
+	<file src="zones/beconhill/col/ROADA_CHOP_D6_1.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C22_1.dff" type="client" />
+	<file src="zones/beconhill/col/oadA_CHOP_C22_1.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C22_2.dff" type="client" />
+	<file src="zones/beconhill/col/oadA_CHOP_C22_2.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C22_4.dff" type="client" />
+	<file src="zones/beconhill/col/oadA_CHOP_C22_4.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C22_3.dff" type="client" />
+	<file src="zones/beconhill/col/oadA_CHOP_C22_3.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D4_R2.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D4_R2.col" type="client" />
+	<file src="zones/beconhill/dff/RoadA_CHOP_D2_R6.dff" type="client" />
+	<file src="zones/beconhill/col/RoadA_CHOP_D2_R6.col" type="client" />
 	<file src="eagleZones.txt" type="client" />
 </meta>

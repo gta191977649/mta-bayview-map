@@ -1,0 +1,16 @@
+<zoneDefinitions>
+	<definition id="oadA_CHOP_C15_R4" zone="beconhill" dff="oadA_CHOP_C15_R4" col="oadA_CHOP_C15_R4" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D1_R7" zone="beconhill" dff="RoadA_CHOP_D1_R7" col="RoadA_CHOP_D1_R7" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D2_R5" zone="beconhill" dff="RoadA_CHOP_D2_R5" col="RoadA_CHOP_D2_R5" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D4_R0" zone="beconhill" dff="RoadA_CHOP_D4_R0" col="RoadA_CHOP_D4_R0" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D5_R0" zone="beconhill" dff="RoadA_CHOP_D5_R0" col="RoadA_CHOP_D5_R0" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D7_R5" zone="beconhill" dff="RoadA_CHOP_D7_R5" col="RoadA_CHOP_D7_R5" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="oadA_CHOP_C18_R0" zone="beconhill" dff="oadA_CHOP_C18_R0" col="oadA_CHOP_C18_R0" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="ROADA_CHOP_D6_1" zone="beconhill" dff="ROADA_CHOP_D6_1" col="ROADA_CHOP_D6_1" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="oadA_CHOP_C22_1" zone="beconhill" dff="oadA_CHOP_C22_1" col="oadA_CHOP_C22_1" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="oadA_CHOP_C22_2" zone="beconhill" dff="oadA_CHOP_C22_2" col="oadA_CHOP_C22_2" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="oadA_CHOP_C22_4" zone="beconhill" dff="oadA_CHOP_C22_4" col="oadA_CHOP_C22_4" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="oadA_CHOP_C22_3" zone="beconhill" dff="oadA_CHOP_C22_3" col="oadA_CHOP_C22_3" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D4_R2" zone="beconhill" dff="RoadA_CHOP_D4_R2" col="RoadA_CHOP_D4_R2" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="RoadA_CHOP_D2_R6" zone="beconhill" dff="RoadA_CHOP_D2_R6" col="RoadA_CHOP_D2_R6" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
+</zoneDefinitions>

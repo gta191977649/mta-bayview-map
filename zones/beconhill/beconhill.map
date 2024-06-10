@@ -1,11 +1,29 @@
 <map>
+	<object id="BH_lA_1b_00" model="8585" posX="-657.00000" posY="996.00000" posZ="54.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="doWtinBase_1a_00" model="8585" posX="-493.00000" posY="616.00000" posZ="76.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="oadA_CHOP_C15_R4" model="8585" posX="-557.00000" posY="1041.00000" posZ="41.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="C_Memorial_1a_00" model="8585" posX="-478.00000" posY="1188.00000" posZ="84.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="BH_fortain" model="8585" posX="-116.00000" posY="1494.00000" posZ="46.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="BH_urant_1a_00" model="8585" posX="-198.00000" posY="1639.00000" posZ="60.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="BH_Museum_1a_00" model="8585" posX="576.00000" posY="1006.00000" posZ="52.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="BH_BigWall_1" model="8585" posX="-128.00000" posY="810.00000" posZ="42.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="rvatory_1a_RR_00" model="8585" posX="160.00000" posY="835.00000" posZ="73.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="BH_A_1a_RB_00" model="8585" posX="-462.00000" posY="709.00000" posZ="36.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="morialsign_1a_00" model="8585" posX="-401.00000" posY="755.00000" posZ="30.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="RoadA_CHOP_D1_R7" model="8585" posX="-334.00000" posY="1325.00000" posZ="48.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="RoadA_CHOP_D2_R5" model="8585" posX="202.00000" posY="1413.00000" posZ="52.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="RoadA_CHOP_D4_R0" model="8585" posX="-155.00000" posY="783.00000" posZ="7.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="RoadA_CHOP_D5_R0" model="8585" posX="-317.00000" posY="629.00000" posZ="26.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="RoadA_CHOP_D7_R5" model="8585" posX="-638.00000" posY="783.00000" posZ="43.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="C_OldHouse_1a_00" model="8585" posX="-678.00000" posY="884.00000" posZ="63.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="ourthouseA_1b_00" model="8585" posX="-600.00000" posY="895.00000" posZ="55.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="B_LibraryA_1b_00" model="8585" posX="-680.00000" posY="926.00000" posZ="59.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="BH_BigArch15" model="8585" posX="-647.00000" posY="922.00000" posZ="47.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="ureCentreB_1b_00" model="8585" posX="-484.00000" posY="841.00000" posZ="58.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="oadA_CHOP_C18_R0" model="8585" posX="-501.00000" posY="600.00000" posZ="17.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="condoBbase_1a_00" model="8585" posX="-566.00000" posY="563.00000" posZ="37.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="ArtGallery_1a_00" model="8585" posX="-592.00000" posY="644.00000" posZ="49.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
+	<object id="Flowerfill_1a_00" model="8585" posX="-638.00000" posY="795.00000" posZ="55.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="ROADA_CHOP_D6_1" model="8585" posX="-392.00000" posY="719.00000" posZ="7.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="oadA_CHOP_C22_1" model="8585" posX="272.00000" posY="820.00000" posZ="30.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="oadA_CHOP_C22_2" model="8585" posX="469.00000" posY="904.00000" posZ="31.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>

@@ -3359,9 +3359,29 @@
 	<file src="zones/westhabor/col/RoadA_CHOP_I8_R1.col" type="client" />
 	<file src="zones/westhabor/dff/WH_FactoryD.dff" type="client" />
 	<file src="zones/westhabor/col/WH_FactoryD.col" type="client" />
-	<file src="zones/beconhill/dff/oadA_CHOP_C15_R4.dff" type="client" />
+	<file src="zones/beconhill/dff/BH_lA_1b_00.dff" type="client" />
 	<file src="zones/beconhill/txd/beconhill.txd" type="client" />
+	<file src="zones/beconhill/col/BH_lA_1b_00.col" type="client" />
+	<file src="zones/beconhill/dff/doWtinBase_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/doWtinBase_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/oadA_CHOP_C15_R4.dff" type="client" />
 	<file src="zones/beconhill/col/oadA_CHOP_C15_R4.col" type="client" />
+	<file src="zones/beconhill/dff/C_Memorial_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/C_Memorial_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/BH_fortain.dff" type="client" />
+	<file src="zones/beconhill/col/BH_fortain.col" type="client" />
+	<file src="zones/beconhill/dff/BH_urant_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/BH_urant_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/BH_Museum_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/BH_Museum_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/BH_BigWall_1.dff" type="client" />
+	<file src="zones/beconhill/col/BH_BigWall_1.col" type="client" />
+	<file src="zones/beconhill/dff/rvatory_1a_RR_00.dff" type="client" />
+	<file src="zones/beconhill/col/rvatory_1a_RR_00.col" type="client" />
+	<file src="zones/beconhill/dff/BH_A_1a_RB_00.dff" type="client" />
+	<file src="zones/beconhill/col/BH_A_1a_RB_00.col" type="client" />
+	<file src="zones/beconhill/dff/morialsign_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/morialsign_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/RoadA_CHOP_D1_R7.dff" type="client" />
 	<file src="zones/beconhill/col/RoadA_CHOP_D1_R7.col" type="client" />
 	<file src="zones/beconhill/dff/RoadA_CHOP_D2_R5.dff" type="client" />
@@ -3372,8 +3392,24 @@
 	<file src="zones/beconhill/col/RoadA_CHOP_D5_R0.col" type="client" />
 	<file src="zones/beconhill/dff/RoadA_CHOP_D7_R5.dff" type="client" />
 	<file src="zones/beconhill/col/RoadA_CHOP_D7_R5.col" type="client" />
+	<file src="zones/beconhill/dff/C_OldHouse_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/C_OldHouse_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/ourthouseA_1b_00.dff" type="client" />
+	<file src="zones/beconhill/col/ourthouseA_1b_00.col" type="client" />
+	<file src="zones/beconhill/dff/B_LibraryA_1b_00.dff" type="client" />
+	<file src="zones/beconhill/col/B_LibraryA_1b_00.col" type="client" />
+	<file src="zones/beconhill/dff/BH_BigArch15.dff" type="client" />
+	<file src="zones/beconhill/col/BH_BigArch15.col" type="client" />
+	<file src="zones/beconhill/dff/ureCentreB_1b_00.dff" type="client" />
+	<file src="zones/beconhill/col/ureCentreB_1b_00.col" type="client" />
 	<file src="zones/beconhill/dff/oadA_CHOP_C18_R0.dff" type="client" />
 	<file src="zones/beconhill/col/oadA_CHOP_C18_R0.col" type="client" />
+	<file src="zones/beconhill/dff/condoBbase_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/condoBbase_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/ArtGallery_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/ArtGallery_1a_00.col" type="client" />
+	<file src="zones/beconhill/dff/Flowerfill_1a_00.dff" type="client" />
+	<file src="zones/beconhill/col/Flowerfill_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/ROADA_CHOP_D6_1.dff" type="client" />
 	<file src="zones/beconhill/col/ROADA_CHOP_D6_1.col" type="client" />
 	<file src="zones/beconhill/dff/oadA_CHOP_C22_1.dff" type="client" />

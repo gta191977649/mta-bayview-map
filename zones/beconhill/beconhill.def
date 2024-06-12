@@ -11,7 +11,7 @@
 	<definition id="BH_BH_Wall21" zone="beconhill" dff="BH_BH_Wall21" col="BH_BH_Wall21" txd="beconhill" alphaTransparency="true" lod="false" lodID="false" lodDistance="1000" flags="4" doubleSided="true" breakable="false"></definition>
 	<definition id="BH_BH_Wall24" zone="beconhill" dff="BH_BH_Wall24" col="BH_BH_Wall24" txd="beconhill" alphaTransparency="true" lod="false" lodID="false" lodDistance="1000" flags="4" doubleSided="true" breakable="false"></definition>
 	<definition id="BH_lA_1b_00" zone="beconhill" dff="BH_lA_1b_00" col="BH_lA_1b_00" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
-	<definition id="ulbAOrange_1a_00" zone="beconhill" dff="ulbAOrange_1a_00" col="ulbAOrange_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
+	<definition id="ulbAOrange_1a_00" zone="beconhill" dff="ulbAOrange_1a_00" col="ulbAOrange_1a_00" txd="beconhill" alphaTransparency="true" lod="false" lodID="false" lodDistance="200" flags="4" doubleSided="true" breakable="false"></definition>
 	<definition id="lmCoconutA_1b_00" zone="beconhill" dff="lmCoconutA_1b_00" col="lmCoconutA_1b_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="reetLightS_1a_00" zone="beconhill" dff="reetLightS_1a_00" col="reetLightS_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="doWtinBase_1a_00" zone="beconhill" dff="doWtinBase_1a_00" col="doWtinBase_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
@@ -38,7 +38,6 @@
 	<definition id="lanterSetB_1b_00" zone="beconhill" dff="lanterSetB_1b_00" col="lanterSetB_1b_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="Memorial01_1a_00" zone="beconhill" dff="Memorial01_1a_00" col="Memorial01_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="ShrubberyA_1b_00" zone="beconhill" dff="ShrubberyA_1b_00" col="ShrubberyA_1b_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
-	<definition id="C_ArchBase_1a_00" zone="beconhill" dff="C_ArchBase_1a_00" col="C_ArchBase_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="reetLightJ_1a_00" zone="beconhill" dff="reetLightJ_1a_00" col="reetLightJ_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="neTreeA_1a_RB_00" zone="beconhill" dff="neTreeA_1a_RB_00" col="neTreeA_1a_RB_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="lmCoconutA_4b_00" zone="beconhill" dff="lmCoconutA_4b_00" col="lmCoconutA_4b_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
@@ -53,7 +52,6 @@
 	<definition id="BH_BH_Wall12" zone="beconhill" dff="BH_BH_Wall12" col="BH_BH_Wall12" txd="beconhill" alphaTransparency="true" lod="false" lodID="false" lodDistance="1000" flags="4" doubleSided="true" breakable="false"></definition>
 	<definition id="BH_BH_Wall9" zone="beconhill" dff="BH_BH_Wall9" col="BH_BH_Wall9" txd="beconhill" alphaTransparency="true" lod="false" lodID="false" lodDistance="1000" flags="4" doubleSided="true" breakable="false"></definition>
 	<definition id="BH_BH_Wall13" zone="beconhill" dff="BH_BH_Wall13" col="BH_BH_Wall13" txd="beconhill" alphaTransparency="true" lod="false" lodID="false" lodDistance="1000" flags="4" doubleSided="true" breakable="false"></definition>
-	<definition id="ain_FenceA_1a_00" zone="beconhill" dff="ain_FenceA_1a_00" col="ain_FenceA_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="aurantsign_1a_00" zone="beconhill" dff="aurantsign_1a_00" col="aurantsign_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="BH_urant_1a_00" zone="beconhill" dff="BH_urant_1a_00" col="BH_urant_1a_00" txd="beconhill" lod="false" lodID="false" lodDistance="1000" flags="0" doubleSided="true" breakable="false"></definition>
 	<definition id="asArchA_1a_DM_00" zone="beconhill" dff="asArchA_1a_DM_00" col="asArchA_1a_DM_00" txd="beconhill" lod="false" lodID="false" lodDistance="200" flags="0" doubleSided="true" breakable="false"></definition>

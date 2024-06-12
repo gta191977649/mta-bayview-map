@@ -3438,8 +3438,6 @@
 	<file src="zones/beconhill/col/Memorial01_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/ShrubberyA_1b_00.dff" type="client" />
 	<file src="zones/beconhill/col/ShrubberyA_1b_00.col" type="client" />
-	<file src="zones/beconhill/dff/C_ArchBase_1a_00.dff" type="client" />
-	<file src="zones/beconhill/col/C_ArchBase_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/reetLightJ_1a_00.dff" type="client" />
 	<file src="zones/beconhill/col/reetLightJ_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/neTreeA_1a_RB_00.dff" type="client" />
@@ -3468,8 +3466,6 @@
 	<file src="zones/beconhill/col/BH_BH_Wall9.col" type="client" />
 	<file src="zones/beconhill/dff/BH_BH_Wall13.dff" type="client" />
 	<file src="zones/beconhill/col/BH_BH_Wall13.col" type="client" />
-	<file src="zones/beconhill/dff/ain_FenceA_1a_00.dff" type="client" />
-	<file src="zones/beconhill/col/ain_FenceA_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/aurantsign_1a_00.dff" type="client" />
 	<file src="zones/beconhill/col/aurantsign_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/BH_urant_1a_00.dff" type="client" />

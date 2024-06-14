@@ -10,3 +10,5 @@ stadium
 easthabor
 westhabor
 beconhill
+beconhill_mid
+speedway

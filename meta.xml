@@ -3978,6 +3978,8 @@
 	<file src="zones/speedway/col/leE_1a_VC_00.col" type="client" />
 	<file src="zones/speedway/dff/SW_tun_pro.dff" type="client" />
 	<file src="zones/speedway/col/SW_tun_pro.col" type="client" />
+	<file src="zones/speedway/dff/gtbuilding_1a_00.dff" type="client" />
+	<file src="zones/speedway/col/gtbuilding_1a_00.col" type="client" />
 	<file src="zones/speedway/dff/tirebridge_1a_00.dff" type="client" />
 	<file src="zones/speedway/col/tirebridge_1a_00.col" type="client" />
 	<file src="zones/speedway/dff/tirebridge_2a_00.dff" type="client" />

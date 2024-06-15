@@ -283,6 +283,7 @@
 	<object id="leE_1a_VC_00" model="8585" posX="-3674.13599" posY="-2704.06641" posZ="48.11412" rotX="-0.2520177603258826" rotY="-89.48046916193526" rotZ="120.0998752160319" interior="1" dimension="-1"></object>
 	<object id="leE_1a_VC_00" model="8585" posX="-3719.75122" posY="-2731.44653" posZ="52.05285" rotX="-0.25196163203528626" rotY="-89.4799579228879" rotZ="120.3295406099734" interior="1" dimension="-1"></object>
 	<object id="SW_tun_pro" model="8585" posX="-3760.62866" posY="-2743.29346" posZ="45.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="1" dimension="-1"></object>
+	<object id="gtbuilding_1a_00" model="8585" posX="-3717.62866" posY="-2719.29346" posZ="52.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="1" dimension="-1"></object>
 	<object id="tirebridge_1a_00" model="8585" posX="-3830.76245" posY="-2822.93311" posZ="39.42587" rotX="0.0" rotY="-0.0" rotZ="116.38985105137215" interior="1" dimension="-1"></object>
 	<object id="tirebridge_2a_00" model="8585" posX="-3365.71606" posY="-2389.14551" posZ="40.23476" rotX="-0.0006427307161338991" rotY="3.4023547595193397" rotZ="-104.88861439899783" interior="1" dimension="-1"></object>
 	<object id="affold_1a_00" model="8585" posX="-4097.72168" posY="-2616.22095" posZ="60.27928" rotX="0.0" rotY="-0.0" rotZ="142.6389305386345" interior="1" dimension="-1"></object>

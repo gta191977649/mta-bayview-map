@@ -1133,6 +1133,7 @@
 	<object id="lmCoconutA_1b_00" model="8585" posX="-143.00674" posY="-344.44617" posZ="20.93604" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="angeBumper_1a_00" model="8585" posX="-180.68250" posY="-333.09448" posZ="21.88911" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="ConstLight_1a_00" model="8585" posX="-191.85533" posY="-337.98230" posZ="20.14937" rotX="-2.041976964110182e-05" rotY="1.3258563692987859e-05" rotZ="65.99140013084727" interior="0" dimension="-1"></object>
+	<object id="EC_Block_TUN" model="8585" posX="-190.00000" posY="-341.00000" posZ="25.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="edianPoleR_1a_00" model="8585" posX="-174.11351" posY="-318.53662" posZ="21.72688" rotX="-0.00021856601729159845" rotY="-5.050267730083931e-10" rotZ="-86.7321231425301" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="-204.36050" posY="-292.94974" posZ="22.59414" rotX="0.0" rotY="-0.0" rotZ="11.94084211267439" interior="0" dimension="-1"></object>
 	<object id="ashBarrelA_1a_00" model="8585" posX="-178.70851" posY="-301.70038" posZ="21.85009" rotX="-2.253468749833047" rotY="-3.0110809743260547" rotZ="-49.16221034159215" interior="0" dimension="-1"></object>

@@ -1522,6 +1522,8 @@
 	<file src="zones/eastcity/col/ngBAWindow_1c_00.col" type="client" />
 	<file src="zones/eastcity/dff/CT_CRANE.dff" type="client" />
 	<file src="zones/eastcity/col/CT_CRANE.col" type="client" />
+	<file src="zones/eastcity/dff/EC_Block_TUN.dff" type="client" />
+	<file src="zones/eastcity/col/EC_Block_TUN.col" type="client" />
 	<file src="zones/eastcity/dff/lGuardM_1a_MK_00.dff" type="client" />
 	<file src="zones/eastcity/col/lGuardM_1a_MK_00.col" type="client" />
 	<file src="zones/eastcity/dff/ardMend_1a_MK_00.dff" type="client" />

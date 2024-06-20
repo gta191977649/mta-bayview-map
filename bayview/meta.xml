@@ -143,8 +143,6 @@
 	<file src="zones/airport/col/ShrubPalmA_1b_00.col" type="client" />
 	<file src="zones/airport/dff/ortTSign04_1a_00.dff" type="client" />
 	<file src="zones/airport/col/ortTSign04_1a_00.col" type="client" />
-	<file src="zones/airport/dff/RentalSign_1a_00.dff" type="client" />
-	<file src="zones/airport/col/RentalSign_1a_00.col" type="client" />
 	<file src="zones/airport/dff/rainA_CHOP_Q18_0.dff" type="client" />
 	<file src="zones/airport/col/rainA_CHOP_Q18_0.col" type="client" />
 	<file src="zones/airport/dff/BlckBldngB_1a_00.dff" type="client" />
@@ -2828,8 +2826,6 @@
 	<file src="zones/easthabor/col/EHB_PROP_8.col" type="client" />
 	<file src="zones/easthabor/dff/EHB_PROP_12.dff" type="client" />
 	<file src="zones/easthabor/col/EHB_PROP_12.col" type="client" />
-	<file src="zones/easthabor/dff/EHshopA_1a_RB_00.dff" type="client" />
-	<file src="zones/easthabor/col/EHshopA_1a_RB_00.col" type="client" />
 	<file src="zones/easthabor/dff/EH_BRD_2.dff" type="client" />
 	<file src="zones/easthabor/col/EH_BRD_2.col" type="client" />
 	<file src="zones/easthabor/dff/EHB_PROP_20.dff" type="client" />

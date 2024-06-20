@@ -1,0 +1,13 @@
+<meta>
+    <script src="light.lua" type="client"/>
+    <script src="city_light.lua" type="client"/>
+    <file src="fx/light.fx" type="client"/>
+    <file src="fx/neon.fx" type="client"/>
+    <file src="fx/dl_neon.fx" type="client"/>
+    <file src="fx/building.fx" type="client"/>
+    <file src="fx/uv_scroll.fx" type="client"/>
+    <file src="fx/uv_scroll_neon.fx" type="client"/>
+    <file src="fx/uv_fade_neon.fx" type="client"/>
+    <file src="fx/light_shad.fx" type="client"/>
+    <file src="txd/coronastar.png" type="client"/>
+</meta>

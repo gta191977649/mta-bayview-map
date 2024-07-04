@@ -11,4 +11,6 @@ easthabor
 westhabor
 beconhill
 beconhill_mid
+beconhill_east
 speedway
+garage

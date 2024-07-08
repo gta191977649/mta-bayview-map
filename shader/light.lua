@@ -60,9 +60,15 @@ neon_txd = {
     "0x6322a8c1",
     "0x5dc403b5",
     "0x262d5211",
-
-
-
+    "0xef5bd706",
+    "0xf74552af",
+    "0x36fe8e63",
+    "0x6c3b38da",
+    "0xdb650fe3",
+    "0xb50fce29",
+    "0xb1f47d9c",
+    "0x45379393",
+    "0x135227e5",
 }
 light_shad_txd = {
 
@@ -169,15 +175,16 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
     setOcclusionsEnabled( false )
 
     resetWaterLevel()
-    setWaterLevel ( -10 ) 
+    setWaterLevel ( -1000 ) 
+    setWorldSpecialPropertyEnabled ("tunnelweatherblend", false )
 end)
 
 addCommandHandler("ssms", function(_, sizeMB)
     if tonumber(sizeMB) then
-        outputChatBox("The maximum streaming memory available has been changed from " .. math.floor(engineStreamingGetMemorySize() / 1024 / 1024) .. " MB to " .. sizeMB .. " MB")      
+        outputChatbox("The maximum streaming memory available has been changed from " .. math.floor(engineGetStreamingMemorySize() / 1024 / 1024) .. " MB to " .. sizeMB .. " MB")      
         engineStreamingSetMemorySize(tonumber(sizeMB) * 1024 * 1024) -- Convert MB to Bytes
     else
-        outputChatBox("Please enter a numeric value!")
+        outputChatbox("Please enter a numeric value!")
     end
 end, false, false)
 

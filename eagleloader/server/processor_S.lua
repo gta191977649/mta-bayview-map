@@ -28,6 +28,7 @@ function onResourceStop(resource) -- // Trigger the client event on resource sto
 end
 addEventHandler( "onResourceStop", root, onResourceStop)
 
+
 function streamObject(id,x,y,z,xr,yr,zr)
 	local x = x or 0
 	local y = y or 0

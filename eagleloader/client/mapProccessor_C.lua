@@ -6,18 +6,18 @@ function getLines(file)
 end
 
 function onResourceStart(resourceThatStarted)
-	engineSetPoolCapacity('building',30000)
-	removeAllGameBuildings()
-
-	--engineSetPoolCapacity('object',30000)
-
+	
 	local resourceName = getResourceName(resourceThatStarted)
 	local path = ((":%s/%s"):format(resourceName,'eagleZones.txt'))
-	local exists = fileExists(path) --// We want to check if the resource has an eagleZones file, this is so we don't have to go through server side which may cause issues.
 	local definitionList = {}
 	local placementList = {}
-	
-	if exists then
+
+	-- Check nessary files
+	if fileExists(path) then 
+		print("Note: eagleZones.txt is not found!")
+	end
+
+	if fileExists(path) then
 		local zones = getLines(fileOpen(path))
 		for _,zone in pairs(zones) do
 			local list = loadZone(resourceName,zone)
@@ -36,11 +36,8 @@ function onResourceStart(resourceThatStarted)
 		end
 	end
 
-	local last_placement = placementList[#placementList]
-	if last_placement then
-		local lastID = last_placement.id
-		loadMapPlacements(resourceName,placementList,lastID)
-	end
+	removeAllGameBuildings()
+	engineSetPoolCapacity("Building", 30000)
 	
 	local last = definitionList[#definitionList]
 	if last then
@@ -48,6 +45,12 @@ function onResourceStart(resourceThatStarted)
 		loadMapDefinitions(resourceName,definitionList,lastID)
 	end
 
+	local last_placement = placementList[#placementList]
+	if last_placement then
+		local lastID = last_placement.id
+		loadMapPlacements(resourceName,placementList,lastID)
+	end
+	
 
 end
 
@@ -94,3 +97,10 @@ function loadPlacement(resourceName,zone)
 	return {}
 end
 
+-- local size = 5
+-- for i = 1, 100 do 
+-- 	for j = 1,100 do 
+-- 		createBuilding(647, i*size,j*size,0, 0,0,0)
+-- 		--createObject(2912, i*size,j*size,0, 0,0,0)
+-- 	end
+-- end

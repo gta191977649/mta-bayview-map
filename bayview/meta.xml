@@ -35,7 +35,6 @@
 	<file src="zones/speedway/speedway.def" type="client" />
 	<file src="zones/garage/garage.def" type="client" />
 	<file src="zones/airport/dff/reetLightD_1a_00.dff" type="client" />
-	<file src="zones/airport/txd/airport.txd" type="client" />
 	<file src="zones/airport/col/reetLightD_1a_00.col" type="client" />
 	<file src="zones/airport/dff/XS_BestBuy_1a_00.dff" type="client" />
 	<file src="zones/airport/col/XS_BestBuy_1a_00.col" type="client" />
@@ -222,7 +221,6 @@
 	<file src="zones/airport/dff/B_AirportA_1a_00.dff" type="client" />
 	<file src="zones/airport/col/B_AirportA_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/reetLightD_1a_00.dff" type="client" />
-	<file src="zones/spillway/txd/spillway.txd" type="client" />
 	<file src="zones/spillway/col/reetLightD_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/ashBarrelA_1a_00.dff" type="client" />
 	<file src="zones/spillway/col/ashBarrelA_1a_00.col" type="client" />
@@ -305,7 +303,6 @@
 	<file src="zones/spillway/dff/NRND_CHOP_Q11_3.dff" type="client" />
 	<file src="zones/spillway/col/NRND_CHOP_Q11_3.col" type="client" />
 	<file src="zones/westspill/dff/dOldTownGP_1a_00.dff" type="client" />
-	<file src="zones/westspill/txd/westspill.txd" type="client" />
 	<file src="zones/westspill/col/dOldTownGP_1a_00.col" type="client" />
 	<file src="zones/westspill/dff/ashBarrelA_1a_00.dff" type="client" />
 	<file src="zones/westspill/col/ashBarrelA_1a_00.col" type="client" />
@@ -396,7 +393,6 @@
 	<file src="zones/westspill/dff/stTreeA_tn_GP_01.dff" type="client" />
 	<file src="zones/westspill/col/stTreeA_tn_GP_01.col" type="client" />
 	<file src="zones/oldtown/dff/neTreeB_1a_RB_00.dff" type="client" />
-	<file src="zones/oldtown/txd/oldtown.txd" type="client" />
 	<file src="zones/oldtown/col/neTreeB_1a_RB_00.col" type="client" />
 	<file src="zones/oldtown/dff/LightPWALL_1a_00.dff" type="client" />
 	<file src="zones/oldtown/col/LightPWALL_1a_00.col" type="client" />
@@ -869,7 +865,6 @@
 	<file src="zones/oldtown/dff/RoadA_CHOP_P8_R0.dff" type="client" />
 	<file src="zones/oldtown/col/RoadA_CHOP_P8_R0.col" type="client" />
 	<file src="zones/westoldtown/dff/eNeckLight_1a_00.dff" type="client" />
-	<file src="zones/westoldtown/txd/westoldtown.txd" type="client" />
 	<file src="zones/westoldtown/col/eNeckLight_1a_00.col" type="client" />
 	<file src="zones/westoldtown/dff/eebaseA_1a_LL_00.dff" type="client" />
 	<file src="zones/westoldtown/col/eebaseA_1a_LL_00.col" type="client" />
@@ -1164,7 +1159,6 @@
 	<file src="zones/westoldtown/dff/WT_N6_PROP.dff" type="client" />
 	<file src="zones/westoldtown/col/WT_N6_PROP.col" type="client" />
 	<file src="zones/eastcity/dff/lmCoconutA_1b_00.dff" type="client" />
-	<file src="zones/eastcity/txd/eastcity.txd" type="client" />
 	<file src="zones/eastcity/col/lmCoconutA_1b_00.col" type="client" />
 	<file src="zones/eastcity/dff/reetLightS_1a_00.dff" type="client" />
 	<file src="zones/eastcity/col/reetLightS_1a_00.col" type="client" />
@@ -1565,14 +1559,12 @@
 	<file src="zones/eastcity/dff/PAN_Landmark3.dff" type="client" />
 	<file src="zones/eastcity/col/PAN_Landmark3.col" type="client" />
 	<file src="zones/viewlight/dff/VIEW_SPLIGHT_1.dff" type="client" />
-	<file src="zones/viewlight/txd/viewlight.txd" type="client" />
 	<file src="zones/viewlight/col/VIEW_SPLIGHT_1.col" type="client" />
 	<file src="zones/viewlight/dff/VIEW_SPLIGHT_2.dff" type="client" />
 	<file src="zones/viewlight/col/VIEW_SPLIGHT_2.col" type="client" />
 	<file src="zones/viewlight/dff/VIEW_SPLIGHT_3.dff" type="client" />
 	<file src="zones/viewlight/col/VIEW_SPLIGHT_3.col" type="client" />
 	<file src="zones/westcity/dff/lmCoconutA_1b_00.dff" type="client" />
-	<file src="zones/westcity/txd/westcity.txd" type="client" />
 	<file src="zones/westcity/col/lmCoconutA_1b_00.col" type="client" />
 	<file src="zones/westcity/dff/reetLightQ_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/reetLightQ_1a_00.col" type="client" />
@@ -2101,7 +2093,6 @@
 	<file src="zones/westcity/dff/oadCT_hotel.dff" type="client" />
 	<file src="zones/westcity/col/oadCT_hotel.col" type="client" />
 	<file src="zones/stadium/dff/edianPoleR_1a_00.dff" type="client" />
-	<file src="zones/stadium/txd/stadium.txd" type="client" />
 	<file src="zones/stadium/col/edianPoleR_1a_00.col" type="client" />
 	<file src="zones/stadium/dff/enTreeA_1a_RB_00.dff" type="client" />
 	<file src="zones/stadium/col/enTreeA_1a_RB_00.col" type="client" />
@@ -2442,7 +2433,6 @@
 	<file src="zones/stadium/dff/Object001.dff" type="client" />
 	<file src="zones/stadium/col/Object001.col" type="client" />
 	<file src="zones/easthabor/dff/ETH-idgeB_1a_00.dff" type="client" />
-	<file src="zones/easthabor/txd/easthabor.txd" type="client" />
 	<file src="zones/easthabor/col/ETH-idgeB_1a_00.col" type="client" />
 	<file src="zones/easthabor/dff/iaTreeA_1a_RB_00.dff" type="client" />
 	<file src="zones/easthabor/col/iaTreeA_1a_RB_00.col" type="client" />
@@ -2911,7 +2901,6 @@
 	<file src="zones/easthabor/dff/RoadA_CHOP_J9_RB.dff" type="client" />
 	<file src="zones/easthabor/col/RoadA_CHOP_J9_RB.col" type="client" />
 	<file src="zones/westhabor/dff/nopyLightA_1a_00.dff" type="client" />
-	<file src="zones/westhabor/txd/westhabor.txd" type="client" />
 	<file src="zones/westhabor/col/nopyLightA_1a_00.col" type="client" />
 	<file src="zones/westhabor/dff/ulbAOrange_1a_00.dff" type="client" />
 	<file src="zones/westhabor/col/ulbAOrange_1a_00.col" type="client" />
@@ -3372,7 +3361,6 @@
 	<file src="zones/westhabor/dff/WH_FactoryD.dff" type="client" />
 	<file src="zones/westhabor/col/WH_FactoryD.col" type="client" />
 	<file src="zones/beconhill/dff/njingPineA_1a_00.dff" type="client" />
-	<file src="zones/beconhill/txd/beconhill.txd" type="client" />
 	<file src="zones/beconhill/col/njingPineA_1a_00.col" type="client" />
 	<file src="zones/beconhill/dff/reetLightK_1a_00.dff" type="client" />
 	<file src="zones/beconhill/col/reetLightK_1a_00.col" type="client" />
@@ -3695,7 +3683,6 @@
 	<file src="zones/beconhill/dff/RoadA_CHOP_D2_R6.dff" type="client" />
 	<file src="zones/beconhill/col/RoadA_CHOP_D2_R6.col" type="client" />
 	<file src="zones/beconhill_mid/dff/BH_Spotlight.dff" type="client" />
-	<file src="zones/beconhill_mid/txd/beconhill_mid.txd" type="client" />
 	<file src="zones/beconhill_mid/col/BH_Spotlight.col" type="client" />
 	<file src="zones/beconhill_mid/dff/almFatA_1a_RB_00.dff" type="client" />
 	<file src="zones/beconhill_mid/col/almFatA_1a_RB_00.col" type="client" />
@@ -3902,7 +3889,6 @@
 	<file src="zones/beconhill_mid/dff/rain_CHOP_C91.dff" type="client" />
 	<file src="zones/beconhill_mid/col/rain_CHOP_C91.col" type="client" />
 	<file src="zones/beconhill_east/dff/ightCb_1a_00.dff" type="client" />
-	<file src="zones/beconhill_east/txd/beconhill_east.txd" type="client" />
 	<file src="zones/beconhill_east/col/ightCb_1a_00.col" type="client" />
 	<file src="zones/beconhill_east/dff/tLightM_1a_DW_00.dff" type="client" />
 	<file src="zones/beconhill_east/col/tLightM_1a_DW_00.col" type="client" />
@@ -4281,7 +4267,6 @@
 	<file src="zones/beconhill_east/dff/BE_Road13.dff" type="client" />
 	<file src="zones/beconhill_east/col/BE_Road13.col" type="client" />
 	<file src="zones/beconhill_west/dff/lmCoconutA_1b_00.dff" type="client" />
-	<file src="zones/beconhill_west/txd/beconhill_west.txd" type="client" />
 	<file src="zones/beconhill_west/col/lmCoconutA_1b_00.col" type="client" />
 	<file src="zones/beconhill_west/dff/iaTreeA_1a_RB_00.dff" type="client" />
 	<file src="zones/beconhill_west/col/iaTreeA_1a_RB_00.col" type="client" />
@@ -4518,7 +4503,6 @@
 	<file src="zones/beconhill_west/dff/RoadA_CHOP_C4_R4.dff" type="client" />
 	<file src="zones/beconhill_west/col/RoadA_CHOP_C4_R4.col" type="client" />
 	<file src="zones/speedway/dff/dlightA_1a_BC_00.dff" type="client" />
-	<file src="zones/speedway/txd/speedway.txd" type="client" />
 	<file src="zones/speedway/col/dlightA_1a_BC_00.col" type="client" />
 	<file src="zones/speedway/dff/MegaLightC_1a_00.dff" type="client" />
 	<file src="zones/speedway/col/MegaLightC_1a_00.col" type="client" />
@@ -4877,7 +4861,6 @@
 	<file src="zones/speedway/dff/SH_TreeLods23.dff" type="client" />
 	<file src="zones/speedway/col/SH_TreeLods23.col" type="client" />
 	<file src="zones/garage/dff/playergarage01.dff" type="client" />
-	<file src="zones/garage/txd/garage.txd" type="client" />
 	<file src="zones/garage/col/playergarage01.col" type="client" />
 	<file src="zones/garage/dff/cardisk.dff" type="client" />
 	<file src="zones/garage/col/cardisk.col" type="client" />

@@ -1,0 +1,15 @@
+<meta>
+	<info description="Shader - sslr test" version="0.0.7" type="script" />
+    <min_mta_version client="1.5.7-9.20157"></min_mta_version>
+	<script src="rt.lua" type="client" />
+	<script src="c_main.lua" type="client" />
+	<file src="sslr.fx" type="client" />
+	<file src="brightPass.fx" type="client" />
+	<file src="blurH.fx" type="client" />
+	<file src="blurV.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+	<file src="RTinput_world_depth.fx" type="client" />
+	<file src="RTinput_world_zero.fx" type="client" />
+	<file src="water.fx" type="client" />
+	<file src="vignette1.dds" type="client" />
+</meta>

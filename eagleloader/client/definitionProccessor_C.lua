@@ -34,12 +34,13 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 
 	for i,v in pairs(getElementsByType('object')) do -- // Loop through all of the objects and mark which IDs exist
 		local id = getElementID(v)
-		
 		local lodID = getElementData(v,'lodID')
 		validID[lodID] = true
 		validID[id] = true
 	end
 	
+	-- check if use global texture
+	local globalTxdPath = fileExists((":%s/%s"):format(resourceName,'map.txd')) and (":%s/%s"):format(resourceName,'map.txd') or false
 
 	Async:setPriority("medium")
 	Async:foreach(mapDefinitions, function(data)
@@ -92,6 +93,11 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 
 					local TXDPath = ':'..resourceName..'/zones/'..zone..'/txd/'..textureString..'.txd'
 
+					-- // Check if the map use global texture 
+					if globalTxdPath then
+						TXDPath = globalTxdPath
+					end
+					
 					local texture,textureCache = requestTextureArchive(TXDPath,resourceName)
 
 					if texture then
@@ -160,6 +166,7 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 end
 
 function loadMapPlacements(resourceName,mapPlacements,last)
+	
 	resourceMaps[resourceName] = {}
 	
 	Async:setPriority("medium")
@@ -169,13 +176,12 @@ function loadMapPlacements(resourceName,mapPlacements,last)
 		if isLOD then
 			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,true)
 		else
-			--createBuilding( data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
+			--obj = createBuilding(modelID,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,tonumber(data.interior))
 			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
 		end
 		setElementInterior(obj,tonumber(data.interior))
-		--setElementDimension(obj,data.dimension)
 		setElementID(obj,data.id)
-		--modelPool[]
+		--setElementDimension(obj,data.dimension)
 	end)
 end
 
@@ -189,9 +195,6 @@ end
 					
 
 function initializeObjects()
-
-
-
 	Async:setPriority("medium")
 	Async:foreach( getElementsByType("object"), function(object)
 	

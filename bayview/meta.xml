@@ -4865,4 +4865,5 @@
 	<file src="zones/garage/dff/cardisk.dff" type="client" />
 	<file src="zones/garage/col/cardisk.col" type="client" />
 	<file src="eagleZones.txt" type="client" />
+	<file src="map.txd" type="client" />
 </meta>

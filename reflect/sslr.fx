@@ -423,14 +423,14 @@ float4 PixelShaderFunctionAO(PSInput PS) : COLOR0
     if (BufferValue > d) alpha = 0;
 	
     // apply freshnel
-    float fresnel = 1 - saturate(2.6 * dot(viewDir, -worldNormal));	
+    float fresnel = 1 - saturate(4 * dot(viewDir, -worldNormal));	
 	
     // lerp and apply
     cnuv = lerp(saturate(sSkyColor.rgb * 1.25) * sSkyColor.a, cnuv.rgb, 0.0 + (alpha * anuv));
     alpha = saturate(fresnel * clamp(0, 1, worldNormal.z));
     alpha *= maskTex.r;
 
-    return float4(cnuv, alpha * 0.85);
+    return float4(cnuv, alpha );
 
 }
 

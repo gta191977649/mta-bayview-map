@@ -1,15 +1,3 @@
--- //Properties you can edit
-removeDefaultMap = true
-
-
--- //Rest of the script
-if removeDefaultMap then
-	for i=550,20000 do
-		removeWorldModel(i,10000,0,0,0)
-	end
-	setOcclusionsEnabled(false)
-end
-
 function changeObjectModel(object,newModel)
 	triggerClientEvent ( resourceRoot,"changeObjectModel", root, object,newModel )
 end

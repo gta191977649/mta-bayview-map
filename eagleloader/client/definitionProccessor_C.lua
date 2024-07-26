@@ -64,7 +64,6 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 					loddist = loddist > 300 and 2000 or 200
 					engineSetModelLODDistance (modelID,(loddist))
 					engineSetModelFlags(modelID,tonumber(data.flags),true)
-					--engineSetModelFlag(modelID,"is_road",true )
 					streamingDistances[modelID] = (loddist)
 
 					--local LOD = data.lod
@@ -176,7 +175,10 @@ function loadMapPlacements(resourceName,mapPlacements,last)
 		if isLOD then
 			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,true)
 		else
-			--obj = createBuilding(modelID,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,tonumber(data.interior))
+			-- if data.id and idCache[data.id] then
+			-- 	--obj = createBuilding(idCache[data.id],data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,tonumber(data.interior))
+			-- 	obj = createObject(idCache[data.id],data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
+			-- end
 			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
 		end
 		setElementInterior(obj,tonumber(data.interior))
@@ -190,13 +192,12 @@ function loaded(resourceName)
 	initializeObjects()
 	releaseCatche(resourceName)
 	engineRestreamWorld (true)
-	setOcclusionsEnabled (false)
 end
 					
 
 function initializeObjects()
 	Async:setPriority("medium")
-	Async:foreach( getElementsByType("object"), function(object)
+	Async:foreach(getElementsByType("object"), function(object)
 	
 		local id = getElementID(object)
 		
@@ -254,13 +255,6 @@ function changeObjectModel (object,newModel,streamNew,inital)
 			local lodID = useLODs[newModel] 
 			
 			if idCache[lodID] then -- // Create new LOD if this model has a LOD assigned to it
-				--[[
-					local x,y,z,xr,yr,zr = getElementPosition (object)
-					local xr,yr,zr = getElementRotation (object)
-					local nObject = createObject (idCache[lodID],x,y,z,xr,yr,zr,true)
-				--]]
-				--local nObject = getElementByID(lodID)
-				
 				local x,y,z = getElementPosition (object)
 				local xr,yr,zr = getElementRotation (object)
 				local nObject = createObject (idCache[lodID],x,y,z,xr,yr,zr,true)
@@ -273,8 +267,6 @@ function changeObjectModel (object,newModel,streamNew,inital)
 					setElementDimension(nObject,dimension)
 					setElementID(nObject,lodID)
 					setLowLODElement(object,nObject)
-					
-					
 					if lodAttach[lodID] then
 						attachElements(nObject,object)
 					end

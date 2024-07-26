@@ -1,3 +1,19 @@
+-- //Properties you can edit
+removeDefaultMap = true
+
+-- //Rest of the script
+if removeDefaultMap then
+	--removeAllGameBuildings()
+
+	for i = 550, 19999, 1 do
+		removeWorldModel(i, 100000, 0, 0, 0)
+	end
+	--engineSetPoolCapacity('building', 31000)
+	--setOcclusionsEnabled(false)
+end
+
+
+
 function getLines(file)
 	local fData = fileRead(file, fileGetSize(file))
 	local fProccessed = split(fData,10) -- Split the lines
@@ -36,22 +52,19 @@ function onResourceStart(resourceThatStarted)
 		end
 	end
 
-	removeAllGameBuildings()
-	engineSetPoolCapacity("Building", 30000)
-	
-	local last = definitionList[#definitionList]
-	if last then
-		local lastID = last.id
-		loadMapDefinitions(resourceName,definitionList,lastID)
-	end
 
+	
 	local last_placement = placementList[#placementList]
 	if last_placement then
 		local lastID = last_placement.id
 		loadMapPlacements(resourceName,placementList,lastID)
 	end
 	
-
+	local last = definitionList[#definitionList]
+	if last then
+		local lastID = last.id
+		loadMapDefinitions(resourceName,definitionList,lastID)
+	end
 end
 
 addEventHandler( "onClientResourceStart", root, onResourceStart)

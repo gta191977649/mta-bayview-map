@@ -21,7 +21,6 @@
 	<object id="reTreeA_1a_RB_00" model="8585" posX="1012.84357" posY="-648.24915" posZ="20.02970" rotX="0.0" rotY="-0.0" rotZ="-109.40425774582515" interior="0" dimension="-1"></object>
 	<object id="reTreeA_1a_RB_00" model="8585" posX="1004.73755" posY="-653.06439" posZ="19.26329" rotX="0.0013362131434138012" rotY="7.286281368166349e-10" rotZ="-90.52989182172016" interior="0" dimension="-1"></object>
 	<object id="nGraffitiA_1a_00" model="8585" posX="711.51636" posY="-989.64136" posZ="59.78044" rotX="0.4832054580096805" rotY="0.18861642906105638" rotZ="-150.56931265988948" interior="0" dimension="-1"></object>
-	<object id="pportPostA_1t_00" model="8585" posX="996.97675" posY="-647.54309" posZ="19.69644" rotX="0.0" rotY="-0.0" rotZ="-48.523282561623525" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="989.32336" posY="-639.91461" posZ="17.12315" rotX="0.0" rotY="-0.0" rotZ="-48.523282561623525" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="992.25732" posY="-643.00183" posZ="17.12315" rotX="0.0" rotY="-0.0" rotZ="-48.523282561623525" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1229.38757" posY="-771.17694" posZ="22.28727" rotX="-0.00010928294773663448" rotY="1.5945988398866095e-11" rotZ="-88.63598447589166" interior="0" dimension="-1"></object>
@@ -43,7 +42,6 @@
 	<object id="reetLightD_1a_00" model="8585" posX="1107.79675" posY="-1005.49304" posZ="22.61852" rotX="0.0" rotY="-0.0" rotZ="-137.7013062675185" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1102.97815" posY="-956.07013" posZ="22.28727" rotX="0.0" rotY="-0.0" rotZ="39.6560387865887" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1155.36462" posY="-959.40466" posZ="22.65499" rotX="0.0" rotY="-0.0" rotZ="-131.59522361062594" interior="0" dimension="-1"></object>
-	<object id="pportPostE_1a_00" model="8585" posX="1135.02954" posY="-936.81451" posZ="21.67585" rotX="-2.3719698146636965e-05" rotY="-9.242105684167988e-06" rotZ="-42.575635658022435" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1133.73706" posY="-934.48737" posZ="25.23913" rotX="0.0" rotY="-0.0" rotZ="136.60265683766627" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1137.94360" posY="-938.42834" posZ="25.23913" rotX="0.0" rotY="-0.0" rotZ="136.60265683766627" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1066.68481" posY="-546.06488" posZ="35.83376" rotX="0.0" rotY="-0.0" rotZ="32.42135620119714" interior="0" dimension="-1"></object>
@@ -91,7 +89,6 @@
 	<object id="reetLightD_1a_00" model="8585" posX="1015.66089" posY="-1104.23706" posZ="22.24357" rotX="2.567706223865381e-05" rotY="2.7755795578771526e-06" rotZ="-109.84390186986988" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1053.49500" posY="-1046.77625" posZ="22.91223" rotX="0.0" rotY="-0.0" rotZ="-144.34442585099762" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="996.06982" posY="-1037.39246" posZ="23.44581" rotX="0.0" rotY="-0.0" rotZ="42.15518847833994" interior="0" dimension="-1"></object>
-	<object id="pportPostE_1a_00" model="8585" posX="1043.10168" posY="-1015.97748" posZ="21.36823" rotX="-2.165600348725703e-05" rotY="-1.1075863369454547e-05" rotZ="-54.174524520386875" interior="0" dimension="-1"></object>
 	<object id="XS_Edge_1a_00" model="8585" posX="1045.72632" posY="-1067.13135" posZ="17.66444" rotX="0.0" rotY="-0.0" rotZ="-60.65195876400583" interior="0" dimension="-1"></object>
 	<object id="Wspill_Bud_GP_01" model="8585" posX="1066.00000" posY="-1070.00000" posZ="25.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="NRND_CHOP_Q14_1" model="8585" posX="957.00000" posY="-1026.00000" posZ="25.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>

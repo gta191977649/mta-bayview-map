@@ -1,5 +1,5 @@
 <meta>
-	<info type="scrip" name="Bayview" author="NURUPO" description="Bayview CONVERTED BY NURUPO" version="1" eagleLoad="1" />
+	<info type="scrip" name="Bayview" author="NURUPO" description="VCS CONVERTED BY NURUPO" version="1" eagleLoad="1" />
 	<file src="zones/airport/airport.map" type="client" />
 	<file src="zones/spillway/spillway.map" type="client" />
 	<file src="zones/westspill/westspill.map" type="client" />
@@ -15,6 +15,7 @@
 	<file src="zones/beconhill_mid/beconhill_mid.map" type="client" />
 	<file src="zones/beconhill_east/beconhill_east.map" type="client" />
 	<file src="zones/beconhill_west/beconhill_west.map" type="client" />
+	<file src="zones/jackson_bottom/jackson_bottom.map" type="client" />
 	<file src="zones/speedway/speedway.map" type="client" />
 	<file src="zones/garage/garage.map" type="client" />
 	<file src="zones/airport/airport.def" type="client" />
@@ -32,6 +33,7 @@
 	<file src="zones/beconhill_mid/beconhill_mid.def" type="client" />
 	<file src="zones/beconhill_east/beconhill_east.def" type="client" />
 	<file src="zones/beconhill_west/beconhill_west.def" type="client" />
+	<file src="zones/jackson_bottom/jackson_bottom.def" type="client" />
 	<file src="zones/speedway/speedway.def" type="client" />
 	<file src="zones/garage/garage.def" type="client" />
 	<file src="zones/airport/dff/reetLightD_1a_00.dff" type="client" />
@@ -40,10 +42,10 @@
 	<file src="zones/airport/col/XS_BestBuy_1a_00.col" type="client" />
 	<file src="zones/airport/dff/ashBarrelA_1a_00.dff" type="client" />
 	<file src="zones/airport/col/ashBarrelA_1a_00.col" type="client" />
-	<file src="zones/airport/dff/eway_Red_A_1a_00.dff" type="client" />
-	<file src="zones/airport/col/eway_Red_A_1a_00.col" type="client" />
-	<file src="zones/airport/dff/eway_Red_A_2a_00.dff" type="client" />
-	<file src="zones/airport/col/eway_Red_A_2a_00.col" type="client" />
+	<file src="zones/airport/dff/ap_signPost2.dff" type="client" />
+	<file src="zones/airport/col/ap_signPost2.col" type="client" />
+	<file src="zones/airport/dff/ap_signPost.dff" type="client" />
+	<file src="zones/airport/col/ap_signPost.col" type="client" />
 	<file src="zones/airport/dff/XO_IP_WBOX_1a_00.dff" type="client" />
 	<file src="zones/airport/col/XO_IP_WBOX_1a_00.col" type="client" />
 	<file src="zones/airport/dff/tlightA_1a_RR_00.dff" type="client" />
@@ -74,8 +76,8 @@
 	<file src="zones/airport/col/MegaLightA_1a_00.col" type="client" />
 	<file src="zones/airport/dff/reetLightC_1a_00.dff" type="client" />
 	<file src="zones/airport/col/reetLightC_1a_00.col" type="client" />
-	<file src="zones/airport/dff/27South_L_1a_00.dff" type="client" />
-	<file src="zones/airport/col/27South_L_1a_00.col" type="client" />
+	<file src="zones/airport/dff/ap_signPost5.dff" type="client" />
+	<file src="zones/airport/col/ap_signPost5.col" type="client" />
 	<file src="zones/airport/dff/IP_CHCC_F_1a_00.dff" type="client" />
 	<file src="zones/airport/col/IP_CHCC_F_1a_00.col" type="client" />
 	<file src="zones/airport/dff/eway_Red_A_1d_00.dff" type="client" />
@@ -104,28 +106,12 @@
 	<file src="zones/airport/col/rtLB_Bld_E_1a_00.col" type="client" />
 	<file src="zones/airport/dff/ortTSign05_1a_00.dff" type="client" />
 	<file src="zones/airport/col/ortTSign05_1a_00.col" type="client" />
-	<file src="zones/airport/dff/XT_ShrbB_1b_00.dff" type="client" />
-	<file src="zones/airport/col/XT_ShrbB_1b_00.col" type="client" />
-	<file src="zones/airport/dff/t_TaxiSign_1a_00.dff" type="client" />
-	<file src="zones/airport/col/t_TaxiSign_1a_00.col" type="client" />
 	<file src="zones/airport/dff/ortTSign06_1a_00.dff" type="client" />
 	<file src="zones/airport/col/ortTSign06_1a_00.col" type="client" />
-	<file src="zones/airport/dff/XT_ShrbC_1b_00.dff" type="client" />
-	<file src="zones/airport/col/XT_ShrbC_1b_00.col" type="client" />
-	<file src="zones/airport/dff/ngingLight_1a_00.dff" type="client" />
-	<file src="zones/airport/col/ngingLight_1a_00.col" type="client" />
-	<file src="zones/airport/dff/MedianPole_1a_00.dff" type="client" />
-	<file src="zones/airport/col/MedianPole_1a_00.col" type="client" />
 	<file src="zones/airport/dff/pportPostB_1a_00.dff" type="client" />
 	<file src="zones/airport/col/pportPostB_1a_00.col" type="client" />
 	<file src="zones/airport/dff/talcounter_1a_00.dff" type="client" />
 	<file src="zones/airport/col/talcounter_1a_00.col" type="client" />
-	<file src="zones/airport/dff/portPillar_1a_00.dff" type="client" />
-	<file src="zones/airport/col/portPillar_1a_00.col" type="client" />
-	<file src="zones/airport/dff/rt_BusSign_1a_00.dff" type="client" />
-	<file src="zones/airport/col/rt_BusSign_1a_00.col" type="client" />
-	<file src="zones/airport/dff/ulbAOrange_1a_00.dff" type="client" />
-	<file src="zones/airport/col/ulbAOrange_1a_00.col" type="client" />
 	<file src="zones/airport/dff/Rentalsign_1a_00.dff" type="client" />
 	<file src="zones/airport/col/Rentalsign_1a_00.col" type="client" />
 	<file src="zones/airport/dff/ShrubberyA_1b_00.dff" type="client" />
@@ -148,8 +134,8 @@
 	<file src="zones/airport/col/ShrubPalmA_1b_00.col" type="client" />
 	<file src="zones/airport/dff/ortTSign04_1a_00.dff" type="client" />
 	<file src="zones/airport/col/ortTSign04_1a_00.col" type="client" />
-	<file src="zones/airport/dff/RentalSign_1a_00.dff" type="client" />
-	<file src="zones/airport/col/RentalSign_1a_00.col" type="client" />
+	<file src="zones/airport/dff/XT_ShrbB_1b_00.dff" type="client" />
+	<file src="zones/airport/col/XT_ShrbB_1b_00.col" type="client" />
 	<file src="zones/airport/dff/rainA_CHOP_Q18_0.dff" type="client" />
 	<file src="zones/airport/col/rainA_CHOP_Q18_0.col" type="client" />
 	<file src="zones/airport/dff/BlckBldngB_1a_00.dff" type="client" />
@@ -238,20 +224,14 @@
 	<file src="zones/spillway/col/LightPoleB_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/WHouseBoxB_1a_00.dff" type="client" />
 	<file src="zones/spillway/col/WHouseBoxB_1a_00.col" type="client" />
-	<file src="zones/spillway/dff/eetLightCb_1a_00.dff" type="client" />
-	<file src="zones/spillway/col/eetLightCb_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/iaTreeA_1a_GP_00.dff" type="client" />
 	<file src="zones/spillway/col/iaTreeA_1a_GP_00.col" type="client" />
 	<file src="zones/spillway/dff/iaTreeA_1a_RB_00.dff" type="client" />
 	<file src="zones/spillway/col/iaTreeA_1a_RB_00.col" type="client" />
 	<file src="zones/spillway/dff/reTreeA_1a_RB_00.dff" type="client" />
 	<file src="zones/spillway/col/reTreeA_1a_RB_00.col" type="client" />
-	<file src="zones/spillway/dff/Navy_27NB_1a_00.dff" type="client" />
-	<file src="zones/spillway/col/Navy_27NB_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/y_Navy_27S_1a_00.dff" type="client" />
 	<file src="zones/spillway/col/y_Navy_27S_1a_00.col" type="client" />
-	<file src="zones/spillway/dff/pportPostC_1a_00.dff" type="client" />
-	<file src="zones/spillway/col/pportPostC_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/fficLightC_1a_00.dff" type="client" />
 	<file src="zones/spillway/col/fficLightC_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/TreewallA_GP_00.dff" type="client" />
@@ -260,8 +240,6 @@
 	<file src="zones/spillway/col/dHouseA_1a_CK_00.col" type="client" />
 	<file src="zones/spillway/dff/eCloseA_1a_GP_00.dff" type="client" />
 	<file src="zones/spillway/col/eCloseA_1a_GP_00.col" type="client" />
-	<file src="zones/spillway/dff/pportPoleA_1a_00.dff" type="client" />
-	<file src="zones/spillway/col/pportPoleA_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/oadA_CHOP_Q10_R1.dff" type="client" />
 	<file src="zones/spillway/col/oadA_CHOP_Q10_R1.col" type="client" />
 	<file src="zones/spillway/dff/NRND_CHOP_Q10_3.dff" type="client" />
@@ -290,8 +268,6 @@
 	<file src="zones/spillway/col/reTreeA_sm_GP_00.col" type="client" />
 	<file src="zones/spillway/dff/iaTreeA_1b_sm_00.dff" type="client" />
 	<file src="zones/spillway/col/iaTreeA_1b_sm_00.col" type="client" />
-	<file src="zones/spillway/dff/ay_Green_B_1a_00.dff" type="client" />
-	<file src="zones/spillway/col/ay_Green_B_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/S_PontiacA_1a_00.dff" type="client" />
 	<file src="zones/spillway/col/S_PontiacA_1a_00.col" type="client" />
 	<file src="zones/spillway/dff/dHouseA_1a_CK_01.dff" type="client" />
@@ -314,16 +290,12 @@
 	<file src="zones/westspill/col/reTreeA_1a_RB_00.col" type="client" />
 	<file src="zones/westspill/dff/nGraffitiA_1a_00.dff" type="client" />
 	<file src="zones/westspill/col/nGraffitiA_1a_00.col" type="client" />
-	<file src="zones/westspill/dff/pportPostA_1t_00.dff" type="client" />
-	<file src="zones/westspill/col/pportPostA_1t_00.col" type="client" />
 	<file src="zones/westspill/dff/way_LightB_1a_00.dff" type="client" />
 	<file src="zones/westspill/col/way_LightB_1a_00.col" type="client" />
 	<file src="zones/westspill/dff/agon_Small_1a_00.dff" type="client" />
 	<file src="zones/westspill/col/agon_Small_1a_00.col" type="client" />
 	<file src="zones/westspill/dff/eWareA_1a_CK_00.dff" type="client" />
 	<file src="zones/westspill/col/eWareA_1a_CK_00.col" type="client" />
-	<file src="zones/westspill/dff/pportPostE_1a_00.dff" type="client" />
-	<file src="zones/westspill/col/pportPostE_1a_00.col" type="client" />
 	<file src="zones/westspill/dff/RoadA_CHOP_Q6_R5.dff" type="client" />
 	<file src="zones/westspill/col/RoadA_CHOP_Q6_R5.col" type="client" />
 	<file src="zones/westspill/dff/NRND_CHOP_Q6_R1.dff" type="client" />
@@ -1174,8 +1146,6 @@
 	<file src="zones/eastcity/col/CT_CONST_CRANE.col" type="client" />
 	<file src="zones/eastcity/dff/shMullC_1b_RB_00.dff" type="client" />
 	<file src="zones/eastcity/col/shMullC_1b_RB_00.col" type="client" />
-	<file src="zones/eastcity/dff/SpotlightB_1a_00.dff" type="client" />
-	<file src="zones/eastcity/col/SpotlightB_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/ConstPostA_1a_00.dff" type="client" />
 	<file src="zones/eastcity/col/ConstPostA_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/CT_TREE_W_4.dff" type="client" />
@@ -1294,8 +1264,6 @@
 	<file src="zones/eastcity/col/tLightL_1a_DW_00.col" type="client" />
 	<file src="zones/eastcity/dff/am_BODY_1a_RR_00.dff" type="client" />
 	<file src="zones/eastcity/col/am_BODY_1a_RR_00.col" type="client" />
-	<file src="zones/eastcity/dff/tlightA_1a_RR_00.dff" type="client" />
-	<file src="zones/eastcity/col/tlightA_1a_RR_00.col" type="client" />
 	<file src="zones/eastcity/dff/usTreeB_1a_RB_00.dff" type="client" />
 	<file src="zones/eastcity/col/usTreeB_1a_RB_00.col" type="client" />
 	<file src="zones/eastcity/dff/htLWALL_1a_RR_00.dff" type="client" />
@@ -1358,12 +1326,10 @@
 	<file src="zones/eastcity/col/CT_TREE_W_1.col" type="client" />
 	<file src="zones/eastcity/dff/CT_CONST_WALL.dff" type="client" />
 	<file src="zones/eastcity/col/CT_CONST_WALL.col" type="client" />
-	<file src="zones/eastcity/dff/LightWallA_1a_00.dff" type="client" />
-	<file src="zones/eastcity/col/LightWallA_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/eSpotlight_1a_00.dff" type="client" />
 	<file src="zones/eastcity/col/eSpotlight_1a_00.col" type="client" />
-	<file src="zones/eastcity/dff/nOverpassB_1a_00.dff" type="client" />
-	<file src="zones/eastcity/col/nOverpassB_1a_00.col" type="client" />
+	<file src="zones/eastcity/dff/EC_vrpassB_1a_01.dff" type="client" />
+	<file src="zones/eastcity/col/EC_vrpassB_1a_01.col" type="client" />
 	<file src="zones/eastcity/dff/afeNeonRim_1a_00.dff" type="client" />
 	<file src="zones/eastcity/col/afeNeonRim_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/rRoundPalm_1a_00.dff" type="client" />
@@ -1400,6 +1366,8 @@
 	<file src="zones/eastcity/col/TowerBaseA_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/TowerBaseB_1a_00.dff" type="client" />
 	<file src="zones/eastcity/col/TowerBaseB_1a_00.col" type="client" />
+	<file src="zones/eastcity/dff/tlightA_1a_RR_00.dff" type="client" />
+	<file src="zones/eastcity/col/tlightA_1a_RR_00.col" type="client" />
 	<file src="zones/eastcity/dff/CT_MTree.dff" type="client" />
 	<file src="zones/eastcity/col/CT_MTree.col" type="client" />
 	<file src="zones/eastcity/dff/derpass_2a_AL_00.dff" type="client" />
@@ -1410,8 +1378,6 @@
 	<file src="zones/eastcity/col/iWindow_1a_BK_00.col" type="client" />
 	<file src="zones/eastcity/dff/eGenTri_1a_BK_00.dff" type="client" />
 	<file src="zones/eastcity/col/eGenTri_1a_BK_00.col" type="client" />
-	<file src="zones/eastcity/dff/XT_Planter_1b_00.dff" type="client" />
-	<file src="zones/eastcity/col/XT_Planter_1b_00.col" type="client" />
 	<file src="zones/eastcity/dff/ainA_CHOP_G11_R0.dff" type="client" />
 	<file src="zones/eastcity/col/ainA_CHOP_G11_R0.col" type="client" />
 	<file src="zones/eastcity/dff/oadA_CHOP_G13_R1.dff" type="client" />
@@ -1424,8 +1390,6 @@
 	<file src="zones/eastcity/col/ongNEON_1a_BK_00.col" type="client" />
 	<file src="zones/eastcity/dff/ongKong_1a_BK_00.dff" type="client" />
 	<file src="zones/eastcity/col/ongKong_1a_BK_00.col" type="client" />
-	<file src="zones/eastcity/dff/ulbAOrange_1a_00.dff" type="client" />
-	<file src="zones/eastcity/col/ulbAOrange_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/heatreE_1a_LL_00.dff" type="client" />
 	<file src="zones/eastcity/col/heatreE_1a_LL_00.col" type="client" />
 	<file src="zones/eastcity/dff/XS_Sign520_1a_00.dff" type="client" />
@@ -1448,8 +1412,8 @@
 	<file src="zones/eastcity/col/opModBaseA_1a_00.col" type="client" />
 	<file src="zones/eastcity/dff/treetTreeB_1b_00.dff" type="client" />
 	<file src="zones/eastcity/col/treetTreeB_1b_00.col" type="client" />
-	<file src="zones/eastcity/dff/SpotlightY_1a_00.dff" type="client" />
-	<file src="zones/eastcity/col/SpotlightY_1a_00.col" type="client" />
+	<file src="zones/eastcity/dff/BH_Spotlight.dff" type="client" />
+	<file src="zones/eastcity/col/BH_Spotlight.col" type="client" />
 	<file src="zones/eastcity/dff/geMul_A_1a_AP_00.dff" type="client" />
 	<file src="zones/eastcity/col/geMul_A_1a_AP_00.col" type="client" />
 	<file src="zones/eastcity/dff/edgewin_1a_JM_00.dff" type="client" />
@@ -1568,8 +1532,8 @@
 	<file src="zones/westcity/col/lmCoconutA_1b_00.col" type="client" />
 	<file src="zones/westcity/dff/reetLightQ_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/reetLightQ_1a_00.col" type="client" />
-	<file src="zones/westcity/dff/SpotlightY_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/SpotlightY_1a_00.col" type="client" />
+	<file src="zones/westcity/dff/BH_Spotlight.dff" type="client" />
+	<file src="zones/westcity/col/BH_Spotlight.col" type="client" />
 	<file src="zones/westcity/dff/shMullD_1a_RB_00.dff" type="client" />
 	<file src="zones/westcity/col/shMullD_1a_RB_00.col" type="client" />
 	<file src="zones/westcity/dff/CurvedA_1a_JM_00.dff" type="client" />
@@ -1650,8 +1614,6 @@
 	<file src="zones/westcity/col/TE_ficePie_1a_BK.col" type="client" />
 	<file src="zones/westcity/dff/angeBumper_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/angeBumper_1a_00.col" type="client" />
-	<file src="zones/westcity/dff/strucWallA_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/strucWallA_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/rrainA_CHOP_O8_1.dff" type="client" />
 	<file src="zones/westcity/col/rrainA_CHOP_O8_1.col" type="client" />
 	<file src="zones/westcity/dff/rail_A_1a_FWY_00.dff" type="client" />
@@ -1670,8 +1632,6 @@
 	<file src="zones/westcity/col/reetLightS_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/ashBarrelA_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/ashBarrelA_1a_00.col" type="client" />
-	<file src="zones/westcity/dff/27CC_Left_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/27CC_Left_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/otel_Right_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/otel_Right_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/adium_Left_1a_00.dff" type="client" />
@@ -1682,8 +1642,8 @@
 	<file src="zones/westcity/col/ightOrange_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/eSpotlight_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/eSpotlight_1a_00.col" type="client" />
-	<file src="zones/westcity/dff/nOverpassB_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/nOverpassB_1a_00.col" type="client" />
+	<file src="zones/westcity/dff/wc_bridge_01.dff" type="client" />
+	<file src="zones/westcity/col/wc_bridge_01.col" type="client" />
 	<file src="zones/westcity/dff/oadA_CHOP_F19_R0.dff" type="client" />
 	<file src="zones/westcity/col/oadA_CHOP_F19_R0.col" type="client" />
 	<file src="zones/westcity/dff/terLongRED_1b_00.dff" type="client" />
@@ -1750,8 +1710,6 @@
 	<file src="zones/westcity/col/O_PlanterA_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/BuildBaseA_1b_00.dff" type="client" />
 	<file src="zones/westcity/col/BuildBaseA_1b_00.col" type="client" />
-	<file src="zones/westcity/dff/SpotlightB_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/SpotlightB_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/MegaLightA_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/MegaLightA_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/TE_nHotelATop_1g.dff" type="client" />
@@ -2028,8 +1986,6 @@
 	<file src="zones/westcity/col/S_SignPooA_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/RJB_TreeA_1b_00.dff" type="client" />
 	<file src="zones/westcity/col/RJB_TreeA_1b_00.col" type="client" />
-	<file src="zones/westcity/dff/ulbAOrange_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/ulbAOrange_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/WC_LIGHT_PAR_3.dff" type="client" />
 	<file src="zones/westcity/col/WC_LIGHT_PAR_3.col" type="client" />
 	<file src="zones/westcity/dff/WTC_PROP_1.dff" type="client" />
@@ -2052,8 +2008,6 @@
 	<file src="zones/westcity/col/TE_nHotelATop_1f.col" type="client" />
 	<file src="zones/westcity/dff/way_Navy_S_1a_00.dff" type="client" />
 	<file src="zones/westcity/col/way_Navy_S_1a_00.col" type="client" />
-	<file src="zones/westcity/dff/y_WhiteO_B_1a_00.dff" type="client" />
-	<file src="zones/westcity/col/y_WhiteO_B_1a_00.col" type="client" />
 	<file src="zones/westcity/dff/WCT_PROP_2.dff" type="client" />
 	<file src="zones/westcity/col/WCT_PROP_2.col" type="client" />
 	<file src="zones/westcity/dff/l_A_1a_FWYEND_00.dff" type="client" />
@@ -4502,6 +4456,500 @@
 	<file src="zones/beconhill_west/col/RoadA_CHOP_C4_R3.col" type="client" />
 	<file src="zones/beconhill_west/dff/RoadA_CHOP_C4_R4.dff" type="client" />
 	<file src="zones/beconhill_west/col/RoadA_CHOP_C4_R4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/usTreeB_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/usTreeB_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/neTreeB_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/neTreeB_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/neTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/neTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/usTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/usTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/reTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/reTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/enTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/enTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/iaTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/iaTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ineSSXb_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ineSSXb_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/BigSSXa_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/BigSSXa_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/reetLightK_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/reetLightK_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ulbAOrange_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ulbAOrange_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shMullC_2b_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shMullC_2b_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shMullC_1b_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shMullC_1b_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/sEyeOrange_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/sEyeOrange_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shMullA_1b_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shMullA_1b_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/Flowers_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/Flowers_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shMullB_1b_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shMullB_1b_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shMullD_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shMullD_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/AgaveA_2a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/AgaveA_2a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/BulbABlue_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/BulbABlue_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XT_BushA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XT_BushA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/BushDenseA_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/BushDenseA_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/lanterSetB_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/lanterSetB_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/RJB_TreeA_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/RJB_TreeA_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/treetTreeB_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/treetTreeB_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_PROP3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_PROP3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/O_RockA_1a_LL_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/O_RockA_1a_LL_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/radiseA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/radiseA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ForestDead_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ForestDead_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/lbAOrangeB_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/lbAOrangeB_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/el_Light_A_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/el_Light_A_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/lmCoconutA_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/lmCoconutA_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/reetLightC_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/reetLightC_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/eetLightCb_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/eetLightCb_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/H_HsGsCt_S_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/H_HsGsCt_S_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_SIGN_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_SIGN_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/H_HsTrOb_R_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/H_HsTrOb_R_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/AgaveA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/AgaveA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/Flowers_2a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/Flowers_2a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shMullD_2a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shMullD_2a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/herryShrub_2b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/herryShrub_2b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/odernEnd_B_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/odernEnd_B_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKF_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKF_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/fficLightC_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/fficLightC_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/S_ChevronA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/S_ChevronA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/S_ChevronB_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/S_ChevronB_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/way_Pole_A_1z_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/way_Pole_A_1z_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/SpotlightB_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/SpotlightB_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKfD_1a_LK_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKfD_1a_LK_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/eCliffA_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/eCliffA_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKfB_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKfB_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/LightKWALL_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/LightKWALL_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/erTreeA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/erTreeA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/MegaLightA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/MegaLightA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_PROP4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_PROP4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/reetLightG_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/reetLightG_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/usTreeB_2a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/usTreeB_2a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/thouseB_1a_LK_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/thouseB_1a_LK_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ainForestB_2b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ainForestB_2b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/tlightA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/tlightA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/lh_1a_DW_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/lh_1a_DW_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_BridgeAmphA.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_BridgeAmphA.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nique_3a_AP_4005.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nique_3a_AP_4005.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XT_ShrbC_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XT_ShrbC_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/lGuardA_2a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/lGuardA_2a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ParkBenchA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ParkBenchA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/almFatA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/almFatA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/heatreG_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/heatreG_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/allCurveA_1b_AAL.dff" type="client" />
+	<file src="zones/jackson_bottom/col/allCurveA_1b_AAL.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rcLarge_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rcLarge_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rdPostA_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rdPostA_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/heatreF_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/heatreF_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/Planter_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/Planter_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/GrassLine_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/GrassLine_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XT_ShrbB_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XT_ShrbB_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XT_BushA_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XT_BushA_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/lanterSetA_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/lanterSetA_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_PROP2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_PROP2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/dernBase_A_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/dernBase_A_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nA_NR_CHOP_A14_6.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nA_NR_CHOP_A14_6.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nA_NR_CHOP_A19_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nA_NR_CHOP_A19_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/Flowers_1b_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/Flowers_1b_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/itePost_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/itePost_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/HouseA_1a_LK_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/HouseA_1a_LK_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/shOverhang_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/shOverhang_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rrySapling_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rrySapling_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/HodgeA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/HodgeA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/herryShrub_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/herryShrub_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKA_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKA_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ParkLampA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ParkLampA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/allPost_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/allPost_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_1a_AP_01.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_1a_AP_01.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XT_Planter_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XT_Planter_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/eSpotlight_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/eSpotlight_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ubSignA_AP_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ubSignA_AP_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ridgePoloA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ridgePoloA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKbA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKbA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/eCliffF_1a_AP_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/eCliffF_1a_AP_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/MedianPole_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/MedianPole_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/erPalmTree_1b_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/erPalmTree_1b_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/jh_waterfore.dff" type="client" />
+	<file src="zones/jackson_bottom/col/jh_waterfore.col" type="client" />
+	<file src="zones/jackson_bottom/dff/enTreeA_2a_RR_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/enTreeA_2a_RR_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/H_HsGs27_S_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/H_HsGs27_S_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_A_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_A_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/MonumentD_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/MonumentD_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/W_GateWood_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/W_GateWood_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Museum_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Museum_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_House_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_House_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/sCourtA_1a_DM_01.dff" type="client" />
+	<file src="zones/jackson_bottom/col/sCourtA_1a_DM_01.col" type="client" />
+	<file src="zones/jackson_bottom/dff/sCourtA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/sCourtA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/HightsA_DM_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/HightsA_DM_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/Jackson_Entry.dff" type="client" />
+	<file src="zones/jackson_bottom/col/Jackson_Entry.col" type="client" />
+	<file src="zones/jackson_bottom/dff/oconutA_2a_RR_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/oconutA_2a_RR_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/ourtLightB_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/ourtLightB_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/am_BODY_1a_RR_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/am_BODY_1a_RR_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/RAPHICS_1a_RR_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/RAPHICS_1a_RR_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/SFXFLARE_4000.dff" type="client" />
+	<file src="zones/jackson_bottom/col/SFXFLARE_4000.col" type="client" />
+	<file src="zones/jackson_bottom/dff/aterDomeA_1b_AAL.dff" type="client" />
+	<file src="zones/jackson_bottom/col/aterDomeA_1b_AAL.col" type="client" />
+	<file src="zones/jackson_bottom/dff/asArchA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/asArchA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKB_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKB_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/O_SwingSet_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/O_SwingSet_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rPieceA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rPieceA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rPieceB_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rPieceB_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_1a_AAL_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_1a_AAL_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rPieceC_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rPieceC_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/LightPoleB_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/LightPoleB_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/rPieceD_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/rPieceD_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKshopB_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKshopB_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKhop_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKhop_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XO_BBNet_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XO_BBNet_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_OLDPROP1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_OLDPROP1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/sCourtA_1a_DM_03.dff" type="client" />
+	<file src="zones/jackson_bottom/col/sCourtA_1a_DM_03.col" type="client" />
+	<file src="zones/jackson_bottom/dff/sCourtA_1a_DM_02.dff" type="client" />
+	<file src="zones/jackson_bottom/col/sCourtA_1a_DM_02.col" type="client" />
+	<file src="zones/jackson_bottom/dff/SpotlightY_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/SpotlightY_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKShopA_1a_RB_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKShopA_1a_RB_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/O_PinballA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/O_PinballA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/XO_Slide_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/XO_Slide_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/tlightA_1a_RR_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/tlightA_1a_RR_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/H_Gs27Th_F_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/H_Gs27Th_F_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKSubA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKSubA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKnA_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKnA_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKA_1a_DM_01.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKA_1a_DM_01.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JKfE_1a_DM_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JKfE_1a_DM_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/pportPoleA_1a_00.dff" type="client" />
+	<file src="zones/jackson_bottom/col/pportPoleA_1a_00.col" type="client" />
+	<file src="zones/jackson_bottom/dff/inA_NR_CHOP_B6_9.dff" type="client" />
+	<file src="zones/jackson_bottom/col/inA_NR_CHOP_B6_9.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nA_NR_CHOP_C12_0.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nA_NR_CHOP_C12_0.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nA_NR_CHOP_B3_12.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nA_NR_CHOP_B3_12.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A12_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A12_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A12_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A12_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A12_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A12_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A12_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A12_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_5.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_5.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_6.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_6.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A16_7.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A16_7.col" type="client" />
+	<file src="zones/jackson_bottom/dff/1b_AAL_CHOP_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/1b_AAL_CHOP_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/1b_AAL_CHOP_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/1b_AAL_CHOP_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/1b_AAL_CHOP_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/1b_AAL_CHOP_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/1b_AAL_CHOP_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/1b_AAL_CHOP_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/1b_AAL_CHOP_5.dff" type="client" />
+	<file src="zones/jackson_bottom/col/1b_AAL_CHOP_5.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A13_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A13_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A13_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A13_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nA_NR_CHOP_B5_0.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nA_NR_CHOP_B5_0.col" type="client" />
+	<file src="zones/jackson_bottom/dff/nA_NR_CHOP_B5_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/nA_NR_CHOP_B5_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_5.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_5.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_6.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_6.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_7.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_7.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_8.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_8.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_9.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_9.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_10.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_10.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_11.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_11.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_12.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_12.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_13.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_13.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_14.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_14.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_15.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_15.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_16.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_16.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_17.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_17.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_18.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_18.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_19.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_19.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_20.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_20.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_21.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_21.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_22.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_22.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_23.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_23.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_24.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_24.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_25.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_25.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_26.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_26.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_27.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_27.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_028.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_028.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_029.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_029.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_030.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_030.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_031.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_031.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_032.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_032.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_033.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_033.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_034.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_034.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_035.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_035.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_036.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_036.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_037.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_037.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_038.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_038.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_039.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_039.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_040.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_040.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_041.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_041.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_042.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_042.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_043.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_043.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_044.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_044.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_045.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_045.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_046.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_046.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_047.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_047.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_048.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_048.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_049.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_049.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_050.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_050.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_051.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_051.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_052.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_052.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_053.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_053.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_054.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_054.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_28.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_28.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_29.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_29.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_30.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_30.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_31.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_31.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_32.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_32.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Tree_33.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Tree_33.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_5.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_5.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_6.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_6.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_7.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_7.col" type="client" />
+	<file src="zones/jackson_bottom/dff/JK_Prop_8.dff" type="client" />
+	<file src="zones/jackson_bottom/col/JK_Prop_8.col" type="client" />
+	<file src="zones/jackson_bottom/dff/RoadA_CHOP_B1_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/RoadA_CHOP_B1_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/RoadA_CHOP_B1_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/RoadA_CHOP_B1_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/RoadA_CHOP_B1_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/RoadA_CHOP_B1_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/RoadA_CHOP_B1_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/RoadA_CHOP_B1_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A15_1.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A15_1.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A15_2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A15_2.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A15_3.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A15_3.col" type="client" />
+	<file src="zones/jackson_bottom/dff/A_NR_CHOP_A15_4.dff" type="client" />
+	<file src="zones/jackson_bottom/col/A_NR_CHOP_A15_4.col" type="client" />
+	<file src="zones/jackson_bottom/dff/inA_NR_CHOP_B2.dff" type="client" />
+	<file src="zones/jackson_bottom/col/inA_NR_CHOP_B2.col" type="client" />
 	<file src="zones/speedway/dff/dlightA_1a_BC_00.dff" type="client" />
 	<file src="zones/speedway/col/dlightA_1a_BC_00.col" type="client" />
 	<file src="zones/speedway/dff/MegaLightC_1a_00.dff" type="client" />

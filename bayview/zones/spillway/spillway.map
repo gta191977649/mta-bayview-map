@@ -28,14 +28,6 @@
 	<object id="OldSpice3_1a_00" model="8585" posX="911.08954" posY="-216.79132" posZ="15.63627" rotX="0.0" rotY="-0.0" rotZ="40.72910692306236" interior="0" dimension="-1"></object>
 	<object id="LightPoleB_1a_00" model="8585" posX="979.36206" posY="-232.28600" posZ="18.38966" rotX="0.0" rotY="-0.0" rotZ="169.99951182603118" interior="0" dimension="-1"></object>
 	<object id="WHouseBoxB_1a_00" model="8585" posX="944.00000" posY="-269.00000" posZ="28.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1162.60596" posY="-235.12558" posZ="18.92632" rotX="0.0" rotY="-0.0" rotZ="45.49466213290655" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1163.07397" posY="-274.50870" posZ="18.29228" rotX="0.0" rotY="-0.0" rotZ="135.96936140205963" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1189.29968" posY="-276.31485" posZ="17.54893" rotX="0.0" rotY="-0.0" rotZ="-149.71635292992937" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1190.50378" posY="-233.03165" posZ="17.63939" rotX="0.0" rotY="-0.0" rotZ="-36.886719759103485" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1117.82202" posY="-278.33963" posZ="19.41354" rotX="0.0" rotY="-0.0" rotZ="-149.71635292992937" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1116.15173" posY="-235.65807" posZ="18.43530" rotX="0.0" rotY="-0.0" rotZ="-36.886719759103485" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1092.02393" posY="-282.25949" posZ="17.08236" rotX="0.0" rotY="-0.0" rotZ="135.96936140205963" interior="0" dimension="-1"></object>
-	<object id="eetLightCb_1a_00" model="8585" posX="1091.60864" posY="-230.48149" posZ="17.94356" rotX="0.0" rotY="-0.0" rotZ="45.49466213290655" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1179.12378" posY="-344.19141" posZ="22.10046" rotX="0.02798074237244618" rotY="1.956696714825238e-08" rotZ="-90.02791608989436" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1120.80359" posY="-356.61700" posZ="28.46196" rotX="0.00013401118146421414" rotY="3.387636052773472e-06" rotZ="90.91625135790021" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1157.11389" posY="-193.19269" posZ="25.80077" rotX="-0.0009015856420711905" rotY="3.0857215022704977e-10" rotZ="-89.19564656177104" interior="0" dimension="-1"></object>
@@ -60,9 +52,7 @@
 	<object id="MegaLightA_1a_00" model="8585" posX="1012.00421" posY="-280.59097" posZ="12.15812" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="MegaLightA_1a_00" model="8585" posX="1044.70166" posY="-279.39221" posZ="12.15812" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="MegaLightA_1a_00" model="8585" posX="1057.04980" posY="-304.38245" posZ="12.15812" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
-	<object id="Navy_27NB_1a_00" model="8585" posX="1162.37097" posY="-232.50134" posZ="15.15618" rotX="0.0" rotY="-0.0" rotZ="74.60340886657504" interior="0" dimension="-1"></object>
 	<object id="y_Navy_27S_1a_00" model="8585" posX="1117.27063" posY="-277.49719" posZ="14.17386" rotX="0.0" rotY="-0.0" rotZ="-111.08638755500834" interior="0" dimension="-1"></object>
-	<object id="pportPostC_1a_00" model="8585" posX="1278.78589" posY="-252.65048" posZ="15.98153" rotX="-0.00027320787231804" rotY="6.304827580278088e-11" rotZ="88.23099301482911" interior="0" dimension="-1"></object>
 	<object id="fficLightC_1a_00" model="8585" posX="1108.00671" posY="-234.07716" posZ="26.81125" rotX="0.0005473256321882996" rotY="3.50316823790397e-08" rotZ="-90.5805382646636" interior="0" dimension="-1"></object>
 	<object id="fficLightC_1a_00" model="8585" posX="1106.69495" posY="-279.86172" posZ="27.18667" rotX="0.0001477597219498867" rotY="-3.9179770748525e-11" rotZ="94.34084128279657" interior="0" dimension="-1"></object>
 	<object id="fficLightC_1a_00" model="8585" posX="1171.52649" posY="-274.87054" posZ="26.55553" rotX="0.0001477597219498867" rotY="-3.9179770748525e-11" rotZ="94.34084128279657" interior="0" dimension="-1"></object>
@@ -74,7 +64,6 @@
 	<object id="TreewallA_GP_00" model="8585" posX="1163.00000" posY="-21.00000" posZ="55.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="dHouseA_1a_CK_00" model="8585" posX="1030.00000" posY="-263.00000" posZ="26.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
 	<object id="eCloseA_1a_GP_00" model="8585" posX="1079.00000" posY="-279.00000" posZ="27.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
-	<object id="pportPoleA_1a_00" model="8585" posX="1178.56311" posY="-347.54440" posZ="18.82684" rotX="0.0" rotY="-0.0" rotZ="-179.88110534190366" interior="0" dimension="-1"></object>
 	<object id="ashBarrelA_1a_00" model="8585" posX="1157.85327" posY="-414.65710" posZ="30.16593" rotX="-3.9426884969239446" rotY="5.873178432614641" rotZ="-0.04338915302959198" interior="0" dimension="-1"></object>
 	<object id="ashBarrelA_1a_00" model="8585" posX="1157.89087" posY="-412.76050" posZ="30.09915" rotX="-1.8520216124954527" rotY="8.729308358902761" rotZ="-2.17777981553149" interior="0" dimension="-1"></object>
 	<object id="ashBarrelA_1a_00" model="8585" posX="1158.09961" posY="-410.92639" posZ="29.99707" rotX="-2.040903190222704" rotY="10.059878309109923" rotZ="-0.00015150382717666556" interior="0" dimension="-1"></object>
@@ -118,7 +107,6 @@
 	<object id="reTreeA_1a_RB_00" model="8585" posX="1104.64490" posY="-431.15656" posZ="29.63937" rotX="0.0" rotY="-0.0" rotZ="179.8108908154347" interior="0" dimension="-1"></object>
 	<object id="reetLightD_1a_00" model="8585" posX="1167.77087" posY="-456.23352" posZ="30.41773" rotX="0.0" rotY="-0.0" rotZ="-96.44143997605661" interior="0" dimension="-1"></object>
 	<object id="iaTreeA_1b_sm_00" model="8585" posX="1087.00000" posY="-431.00000" posZ="36.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="0" dimension="-1"></object>
-	<object id="ay_Green_B_1a_00" model="8585" posX="1148.00940" posY="-469.12094" posZ="30.92179" rotX="0.0" rotY="-0.0" rotZ="-3.400947781534031" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1157.00781" posY="-470.28741" posZ="28.20476" rotX="0.0" rotY="-0.0" rotZ="-3.5200376638815962" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1163.02454" posY="-470.63788" posZ="28.20476" rotX="0.0" rotY="-0.0" rotZ="-3.5200376638815962" interior="0" dimension="-1"></object>
 	<object id="way_LightB_1a_00" model="8585" posX="1151.10718" posY="-469.99860" posZ="28.20476" rotX="0.0" rotY="-0.0" rotZ="-3.5200376638815962" interior="0" dimension="-1"></object>

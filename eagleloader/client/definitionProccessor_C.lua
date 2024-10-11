@@ -16,9 +16,12 @@ definitionZones     = {}
 idObjectProperties  = {}
 lodAttach 			= {}
 lodCache 			= {} -- use it to store lod related positions
+lodMaxDistance 	    = 1000
 lodAttach['tram']   = true
 modelPool 			= {}
 failed              = {}
+
+pleaceHolderModelID = 8585
 
 function loadMapDefinitions ( resourceName,mapDefinitions,last)
 
@@ -47,7 +50,10 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 
 		if not (data.default == 'true') then
 			--iprint(data)
-			local modelID,new = requestModelID(data.id)
+			local isTimedObject = tonumber(data.timeIn) and tonumber(data.timeOut)
+
+			local modelType = isTimedObject and "timed-object" or "object"
+			local modelID,new = requestModelID(data.id,modelType)
 
 			if modelID then
 				
@@ -58,20 +64,25 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 				if streamEverything or validID[data.id] then
 
 					local zone = data.zone
-					
+					local hasLOD = data.lod and data.lod == 'true'
+					--local isLOD = startsWithLOD(data.id)
 					definitionZones[modelID] = zone
 					local loddist = tonumber(data.lodDistance or 200) 
-					loddist = loddist > 300 and 2000 or 200
-					engineSetModelLODDistance (modelID,(loddist))
+					
+					
+					-- deal with if object needs lods
+					local needLODs = loddist > 300
+					
+					engineSetModelLODDistance (modelID,(loddist > lodMaxDistance and lodMaxDistance or loddist),needLODs)
 					engineSetModelFlags(modelID,tonumber(data.flags),true)
 					streamingDistances[modelID] = (loddist)
-
-					--local LOD = data.lod
-					local LOD = loddist > 300 and 'true' or 'false'
-					--local LODID = data.lodID
-						
-					if LOD then
-						if (LOD == 'true') then
+					
+					
+					
+					if needLODs then -- we only checks with object that greate distance in ide
+						if hasLOD then -- if it has lod model assigned
+							useLODs[data.id] = data.lodID
+						else -- or we assign it, (use itself as lod) e.g. like timed objects
 							useLODs[data.id] = data.id
 						end
 					end
@@ -85,6 +96,7 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 					
 					idObjectProperties[data.id]['doubleSided'] = data.doubleSided
 					idObjectProperties[data.id]['breakable'] = data.breakable
+					idObjectProperties[data.id]['lodDistance'] = loddist
 					
 					-- // Textures
 					
@@ -149,9 +161,10 @@ function loadMapDefinitions ( resourceName,mapDefinitions,last)
 						failed[data.id] = true
 					end
 					
-					if tonumber(data.timeIn) and tonumber(data.timeOut) then
-						--outputChatBox(modelID)
-						setModelStreamTime (modelID, tonumber(data.timeIn), tonumber(data.timeOut))
+					if isTimedObject then
+						outputChatBox(string.format("time obj: %d, time: %d-%d",modelID,tonumber(data.timeIn),tonumber(data.timeOut)))
+						--setModelStreamTime (modelID, tonumber(data.timeIn), tonumber(data.timeOut))
+						engineSetModelVisibleTime(modelID,tonumber(data.timeIn),tonumber(data.timeOut))
 						timeTableID[data.id] = true
 					end
 				end
@@ -171,19 +184,22 @@ function loadMapPlacements(resourceName,mapPlacements,last)
 	Async:setPriority("medium")
 	Async:foreach(mapPlacements, function(data)
 		local isLOD = startsWithLOD(data.id)
+		local isDynamic = tonumber(data.model) ~= pleaceHolderModelID 
 		local obj = nil
-		if isLOD then
-			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,true)
+		
+		if isDynamic then -- if is dummy object, use object instead
+			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
+			--obj = createBuilding(3504,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
 		else
 			-- if data.id and idCache[data.id] then
 			-- 	--obj = createBuilding(idCache[data.id],data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,tonumber(data.interior))
 			-- 	obj = createObject(idCache[data.id],data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
 			-- end
-			obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
+			--obj = createObject(data.model,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ)
+			obj = createBuilding(3504,data.posX,data.posY,data.posZ,data.rotX,data.rotY,data.rotZ,tonumber(data.interior))
 		end
-		setElementInterior(obj,tonumber(data.interior))
+		--setElementInterior(obj,tonumber(data.interior))
 		setElementID(obj,data.id)
-		--setElementDimension(obj,data.dimension)
 	end)
 end
 
@@ -191,13 +207,13 @@ function loaded(resourceName)
 	loadedFunction (resourceName)
 	initializeObjects()
 	releaseCatche(resourceName)
-	engineRestreamWorld (true)
+	engineRestreamWorld( true )
 end
 					
 
 function initializeObjects()
 	Async:setPriority("medium")
-	Async:foreach(getElementsByType("object"), function(object)
+	Async:foreach(getElementsByType("building"), function(object)
 	
 		local id = getElementID(object)
 		
@@ -216,7 +232,7 @@ function loadedFunction (resourceName)
 end
 
 
-function changeObjectModel (object,newModel,streamNew,inital)
+function changeObjectModel(object,newModel,streamNew,inital)
 	local id = getElementID(object)
 	
 	if id or streamNew then
@@ -228,6 +244,16 @@ function changeObjectModel (object,newModel,streamNew,inital)
 					print('New object streamed with ID: '..newModel)
 				end
 			end
+			local lodID = useLODs[newModel] 
+			-- fix barrier wrong position
+			if not lodID then 
+				local x,y,z = getElementPosition (object)
+				local xr,yr,zr = getElementRotation (object)
+				destroyElement(object)
+				object = createObject(idCache[newModel],x,y,z,xr,yr,zr)
+			end
+
+
 			setElementModel(object,idCache[newModel])
 			setElementID(object,newModel)
 			setElementData(object,'Zone',definitionZones[id])
@@ -247,32 +273,30 @@ function changeObjectModel (object,newModel,streamNew,inital)
 
 			end
 			
-			local LOD = getLowLODElement(object)
-			if LOD then
-				destroyElement(LOD) -- // Clear LOD if it exists
-			end
+			-- local LOD = getLowLODElement(object)
+			-- if LOD then
+			-- 	destroyElement(LOD) -- // Clear LOD if it exists
+			-- end
 			
-			local lodID = useLODs[newModel] 
-			
-			if idCache[lodID] then -- // Create new LOD if this model has a LOD assigned to it
-				local x,y,z = getElementPosition (object)
-				local xr,yr,zr = getElementRotation (object)
-				local nObject = createObject (idCache[lodID],x,y,z,xr,yr,zr,true)
-		
-				if nObject then
-					local cull,dimension,interior = isElementDoubleSided(object),getElementDimension(object),getElementInterior(object)
-					setElementData(nObject,'Zone',definitionZones[lodID])
-					setElementDoubleSided(nObject,true)
-					setElementInterior(nObject,interior)
-					setElementDimension(nObject,dimension)
-					setElementID(nObject,lodID)
-					setLowLODElement(object,nObject)
-					if lodAttach[lodID] then
-						attachElements(nObject,object)
+			if not getLowLODElement(object) then
+				if lodID then -- // Create new LOD if this model has a LOD assigned to it
+					-- FIND LODS
+					--local nObject = getElementByID(lodID) 
+					--if nObject == object then -- check if it doesnt have lod,then we have to create it
+					local x,y,z = getElementPosition (object)
+					local xr,yr,zr = getElementRotation (object)
+					nObject = createBuilding(idCache[lodID],x,y,z,xr,yr,zr)
+					--end
+
+					if nObject then
+						setLowLODElement(object,nObject)
+						setElementDoubleSided(nObject,true)
 					end
 
+			
 				end
 			end
+			
 		end
 	end
 end

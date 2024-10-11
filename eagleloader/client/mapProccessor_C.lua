@@ -3,13 +3,8 @@ removeDefaultMap = true
 
 -- //Rest of the script
 if removeDefaultMap then
-	--removeAllGameBuildings()
-
-	for i = 550, 19999, 1 do
-		removeWorldModel(i, 100000, 0, 0, 0)
-	end
-	--engineSetPoolCapacity('building', 31000)
-	--setOcclusionsEnabled(false)
+	engineSetPoolCapacity('building',20000)
+	removeAllGameBuildings()
 end
 
 
@@ -52,7 +47,11 @@ function onResourceStart(resourceThatStarted)
 		end
 	end
 
-
+	local last = definitionList[#definitionList]
+	if last then
+		local lastID = last.id
+		loadMapDefinitions(resourceName,definitionList,lastID)
+	end
 	
 	local last_placement = placementList[#placementList]
 	if last_placement then
@@ -60,11 +59,7 @@ function onResourceStart(resourceThatStarted)
 		loadMapPlacements(resourceName,placementList,lastID)
 	end
 	
-	local last = definitionList[#definitionList]
-	if last then
-		local lastID = last.id
-		loadMapDefinitions(resourceName,definitionList,lastID)
-	end
+	
 end
 
 addEventHandler( "onClientResourceStart", root, onResourceStart)
@@ -109,11 +104,3 @@ function loadPlacement(resourceName,zone)
 	end
 	return {}
 end
-
--- local size = 5
--- for i = 1, 100 do 
--- 	for j = 1,100 do 
--- 		createBuilding(647, i*size,j*size,0, 0,0,0)
--- 		--createObject(2912, i*size,j*size,0, 0,0,0)
--- 	end
--- end

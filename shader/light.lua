@@ -78,6 +78,7 @@ light_shad_txd = {
 
 -- TXD_NAME, {0 = UP, 1 = DOWN, 2 = LEFT, 3 = RIGHT}
 uv_anim = {
+    {"0x5ef54374",1},
     {"0x6b098df4",1},
     {"0xb360e1d7",2},
     {"0x9d2f4a51",3},
@@ -94,12 +95,12 @@ uv_anim_alpha = {
 uv_fade = {}
 
 addEventHandler("onClientResourceStart", resourceRoot, function()
-	local coronas_shader = dxCreateShader("fx/light.fx",0,0,false,"object") 
-	local neon_shader = dxCreateShader("fx/neon.fx",0,0,false,"object") 
+	local coronas_shader = dxCreateShader("fx/light.fx",0,0,false,"object,world") 
+	local neon_shader = dxCreateShader("fx/neon.fx",0,0,false,"object,world") 
 	--local neon_shader = dxCreateShader("fx/dl_neon.fx") 
-    local l_shad = dxCreateShader("fx/light_shad.fx",0,0,false,"object") 
-    local fade_shader = dxCreateShader("fx/uv_fade_neon.fx",0,0,false,"object")
-	local building_shader = dxCreateShader("fx/building.fx",0,0 ,false,"object") 
+    local l_shad = dxCreateShader("fx/light_shad.fx",0,0,false,"object,world") 
+    local fade_shader = dxCreateShader("fx/uv_fade_neon.fx",0,0,false,"object,world")
+	local building_shader = dxCreateShader("fx/building.fx",0,0 ,false,"object,world") 
     -- setup uv anim shader
 	local uvAnim_shader = {}
     uvAnim_shader[1] = dxCreateShader("fx/uv_scroll.fx") 

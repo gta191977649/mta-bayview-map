@@ -20,7 +20,7 @@
     <definition id="MonumentD_1a_00" zone="oldtown" col="MonumentD_1a_00" txd="oldtown" flags="21" lodDistance="299"></definition>
     <definition id="ldOldTown7_1a_00" zone="oldtown" col="ldOldTown7_1a_00" txd="oldtown" flags="21" lodDistance="1000"></definition>
     <definition id="enTreeA_1a_RB_00" zone="oldtown" col="enTreeA_1a_RB_00" txd="oldtown" flags="21" lodDistance="299"></definition>
-    <definition id="ParkLampA_1a_00" zone="oldtown" col="ParkLampA_1a_00" txd="oldtown" flags="21,2,3" lodDistance="299"></definition>
+    <definition id="ParkLampA_1a_00" zone="oldtown" col="ParkLampA_1a_00" txd="oldtown" flags="21" lodDistance="299"></definition>
     <definition id="XO_Obelisk_1a_00" zone="oldtown" col="XO_Obelisk_1a_00" txd="oldtown" flags="21" lodDistance="299"></definition>
     <definition id="dOldO18_PROP_1" zone="oldtown" col="dOldO18_PROP_1" txd="oldtown" flags="21" lodDistance="1000"></definition>
     <definition id="TreewallA_1a_00" zone="oldtown" col="TreewallA_1a_00" txd="oldtown" flags="21" lodDistance="299"></definition>

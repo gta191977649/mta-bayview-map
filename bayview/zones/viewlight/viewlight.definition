@@ -1,0 +1,5 @@
+<zoneDefinitions>
+    <definition id="VIEW_SPLIGHT_1" zone="viewlight" col="VIEW_SPLIGHT_1" txd="viewlight" flags="2,3,21" lodDistance="2000"></definition>
+    <definition id="VIEW_SPLIGHT_2" zone="viewlight" col="VIEW_SPLIGHT_2" txd="viewlight" flags="2,3,21" lodDistance="2000"></definition>
+    <definition id="VIEW_SPLIGHT_3" zone="viewlight" col="VIEW_SPLIGHT_3" txd="viewlight" flags="2,3,21" lodDistance="2000"></definition>
+</zoneDefinitions>

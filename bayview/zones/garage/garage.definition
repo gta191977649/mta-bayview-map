@@ -1,0 +1,4 @@
+<zoneDefinitions>
+    <definition id="playergarage01" zone="garage" col="playergarage01" txd="garage" flags="21" lodDistance="299"></definition>
+    <definition id="cardisk" zone="garage" col="cardisk" txd="garage" flags="2,3,21" lodDistance="299"></definition>
+</zoneDefinitions>

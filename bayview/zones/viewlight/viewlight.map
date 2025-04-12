@@ -1,5 +1,0 @@
-<map>
-	<object id="VIEW_SPLIGHT_1" model="8585" posX="-451.13007" posY="-449.41168" posZ="52.02682" rotX="4.798006188462021" rotY="-23.596744151237633" rotZ="2.0922494266469958" interior="0" dimension="-1"></object>
-	<object id="VIEW_SPLIGHT_2" model="8585" posX="-220.33954" posY="-427.09067" posZ="45.39005" rotX="2.6871319525877895" rotY="-48.341430601503795" rotZ="2.837592656107453" interior="0" dimension="-1"></object>
-	<object id="VIEW_SPLIGHT_3" model="8585" posX="69.97008" posY="-447.63458" posZ="-17.87848" rotX="-3.5199221229170337" rotY="26.537919905087282" rotZ="5.9354179130167735" interior="0" dimension="-1"></object>
-</map>

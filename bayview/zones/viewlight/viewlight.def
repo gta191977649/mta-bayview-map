@@ -1,5 +1,0 @@
-<zoneDefinitions>
-	<definition id="VIEW_SPLIGHT_1" zone="viewlight" dff="VIEW_SPLIGHT_1" col="VIEW_SPLIGHT_1" txd="viewlight" alphaTransparency="true" lod="false" lodID="false" lodDistance="2000" flags="8" doubleSided="true" breakable="false"></definition>
-	<definition id="VIEW_SPLIGHT_2" zone="viewlight" dff="VIEW_SPLIGHT_2" col="VIEW_SPLIGHT_2" txd="viewlight" alphaTransparency="true" lod="false" lodID="false" lodDistance="2000" flags="8" doubleSided="true" breakable="false"></definition>
-	<definition id="VIEW_SPLIGHT_3" zone="viewlight" dff="VIEW_SPLIGHT_3" col="VIEW_SPLIGHT_3" txd="viewlight" alphaTransparency="true" lod="false" lodID="false" lodDistance="2000" flags="8" doubleSided="true" breakable="false"></definition>
-</zoneDefinitions>

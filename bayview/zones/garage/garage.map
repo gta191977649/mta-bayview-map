@@ -1,4 +1,0 @@
-<map>
-	<object id="playergarage01" model="8585" posX="0.00000" posY="0.00000" posZ="1000.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="1" dimension="-1"></object>
-	<object id="cardisk" model="8585" posX="0.00000" posY="5.40000" posZ="1000.00000" rotX="0.0" rotY="-0.0" rotZ="-0.0" interior="1" dimension="-1"></object>
-</map>

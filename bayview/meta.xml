@@ -1,5 +1,6 @@
 <meta>
-	<info type="scrip" name="Bayview" author="NURUPO" description="VCS CONVERTED BY NURUPO" version="1" eagleLoad="1" />
+	<info type="script" name="Bayview" author="Nurupo" description="Bay View" version="1.1"/>
+
 	<file src="zones/airport/airport.map" type="client" />
 	<file src="zones/spillway/spillway.map" type="client" />
 	<file src="zones/westspill/westspill.map" type="client" />
@@ -18,24 +19,24 @@
 	<file src="zones/jackson_bottom/jackson_bottom.map" type="client" />
 	<file src="zones/speedway/speedway.map" type="client" />
 	<file src="zones/garage/garage.map" type="client" />
-	<file src="zones/airport/airport.def" type="client" />
-	<file src="zones/spillway/spillway.def" type="client" />
-	<file src="zones/westspill/westspill.def" type="client" />
-	<file src="zones/oldtown/oldtown.def" type="client" />
-	<file src="zones/westoldtown/westoldtown.def" type="client" />
-	<file src="zones/eastcity/eastcity.def" type="client" />
-	<file src="zones/viewlight/viewlight.def" type="client" />
-	<file src="zones/westcity/westcity.def" type="client" />
-	<file src="zones/stadium/stadium.def" type="client" />
-	<file src="zones/easthabor/easthabor.def" type="client" />
-	<file src="zones/westhabor/westhabor.def" type="client" />
-	<file src="zones/beconhill/beconhill.def" type="client" />
-	<file src="zones/beconhill_mid/beconhill_mid.def" type="client" />
-	<file src="zones/beconhill_east/beconhill_east.def" type="client" />
-	<file src="zones/beconhill_west/beconhill_west.def" type="client" />
-	<file src="zones/jackson_bottom/jackson_bottom.def" type="client" />
-	<file src="zones/speedway/speedway.def" type="client" />
-	<file src="zones/garage/garage.def" type="client" />
+	<file src="zones/airport/airport.definition" type="client" />
+	<file src="zones/spillway/spillway.definition" type="client" />
+	<file src="zones/westspill/westspill.definition" type="client" />
+	<file src="zones/oldtown/oldtown.definition" type="client" />
+	<file src="zones/westoldtown/westoldtown.definition" type="client" />
+	<file src="zones/eastcity/eastcity.definition" type="client" />
+	<file src="zones/viewlight/viewlight.definition" type="client" />
+	<file src="zones/westcity/westcity.definition" type="client" />
+	<file src="zones/stadium/stadium.definition" type="client" />
+	<file src="zones/easthabor/easthabor.definition" type="client" />
+	<file src="zones/westhabor/westhabor.definition" type="client" />
+	<file src="zones/beconhill/beconhill.definition" type="client" />
+	<file src="zones/beconhill_mid/beconhill_mid.definition" type="client" />
+	<file src="zones/beconhill_east/beconhill_east.definition" type="client" />
+	<file src="zones/beconhill_west/beconhill_west.definition" type="client" />
+	<file src="zones/jackson_bottom/jackson_bottom.definition" type="client" />
+	<file src="zones/speedway/speedway.definition" type="client" />
+	<file src="zones/garage/garage.definition" type="client" />
 	<file src="zones/airport/dff/reetLightD_1a_00.dff" type="client" />
 	<file src="zones/airport/col/reetLightD_1a_00.col" type="client" />
 	<file src="zones/airport/dff/XS_BestBuy_1a_00.dff" type="client" />
@@ -5313,5 +5314,5 @@
 	<file src="zones/garage/dff/cardisk.dff" type="client" />
 	<file src="zones/garage/col/cardisk.col" type="client" />
 	<file src="eagleZones.txt" type="client" />
-	<file src="map.txd" type="client" />
+	<file src="textures/map.txd" type="client" />
 </meta>

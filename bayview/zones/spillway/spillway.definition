@@ -1,0 +1,33 @@
+<zoneDefinitions>
+    <definition id="P_APRd27_L_1a_00" zone="spillway" col="P_APRd27_L_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="LightPostB_1a_00" zone="spillway" col="LightPostB_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="iaTreeA_1c_GP_00" zone="spillway" col="iaTreeA_1c_GP_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="OldSpice3_1a_00" zone="spillway" col="OldSpice3_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="LightPoleB_1a_00" zone="spillway" col="LightPoleB_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="WHouseBoxB_1a_00" zone="spillway" col="WHouseBoxB_1a_00" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="iaTreeA_1a_GP_00" zone="spillway" col="iaTreeA_1a_GP_00" txd="map" flags="2,3,21" lodDistance="1000"></definition>
+    <definition id="iaTreeA_1a_RB_00" zone="spillway" col="iaTreeA_1a_RB_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="y_Navy_27S_1a_00" zone="spillway" col="y_Navy_27S_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="fficLightC_1a_00" zone="spillway" col="fficLightC_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="TreewallA_GP_00" zone="spillway" col="TreewallA_GP_00" txd="map" flags="2,3,21" lodDistance="1000"></definition>
+    <definition id="dHouseA_1a_CK_00" zone="spillway" col="dHouseA_1a_CK_00" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="eCloseA_1a_GP_00" zone="spillway" col="eCloseA_1a_GP_00" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="oadA_CHOP_Q10_R1" zone="spillway" col="oadA_CHOP_Q10_R1" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="NRND_CHOP_Q10_3" zone="spillway" col="NRND_CHOP_Q10_3" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="oadA_CHOP_Q11_R3" zone="spillway" col="oadA_CHOP_Q11_R3" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="oadA_CHOP_Q12_R1" zone="spillway" col="oadA_CHOP_Q12_R1" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="oadA_CHOP_Q13_R6" zone="spillway" col="oadA_CHOP_Q13_R6" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="NDNR_CHOP_Q13_R0" zone="spillway" col="NDNR_CHOP_Q13_R0" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="oZoneBlack_1a_00" zone="spillway" col="oZoneBlack_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="BurgerKing_1a_00" zone="spillway" col="BurgerKing_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="way_LightB_1a_00" zone="spillway" col="way_LightB_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="NRND_CHOP_R11_5" zone="spillway" col="NRND_CHOP_R11_5" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="NRND_CHOP_Q18" zone="spillway" col="NRND_CHOP_Q18" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="reTreeA_sm_GP_00" zone="spillway" col="reTreeA_sm_GP_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="iaTreeA_1b_sm_00" zone="spillway" col="iaTreeA_1b_sm_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="S_PontiacA_1a_00" zone="spillway" col="S_PontiacA_1a_00" txd="map" flags="21" lodDistance="200"></definition>
+    <definition id="dHouseA_1a_CK_01" zone="spillway" col="dHouseA_1a_CK_01" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="oadA_CHOP_R12_R3" zone="spillway" col="oadA_CHOP_R12_R3" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="NRND_CHOP_Q10_2" zone="spillway" col="NRND_CHOP_Q10_2" txd="map" flags="21" lodDistance="1000"></definition>
+    <definition id="NRND_CHOP_Q11_3" zone="spillway" col="NRND_CHOP_Q11_3" txd="map" flags="21" lodDistance="1000"></definition>
+</zoneDefinitions>

@@ -1,8 +1,8 @@
 -- List of spotlight IDs and their animation data
 local sport_lights = {
-    ["VIEW_SPLIGHT_1"] = {initialAngle = 0, amplitude = 30, period = 3000, targetAxis = "X", speedFactor = 0.1},
-    ["VIEW_SPLIGHT_2"] = {initialAngle = 0, amplitude = 30, period = 3000, targetAxis = "X", speedFactor = 0.15},
-    ["VIEW_SPLIGHT_3"] = {initialAngle = 0, amplitude = -25, period = 3000, targetAxis = "X", speedFactor = 0.2},
+    ["view_splight_1"] = {initialAngle = 0, amplitude = 30, period = 3000, targetAxis = "X", speedFactor = 0.1},
+    ["view_splight_2"] = {initialAngle = 0, amplitude = 30, period = 3000, targetAxis = "X", speedFactor = 0.15},
+    ["view_splight_3"] = {initialAngle = 0, amplitude = -25, period = 3000, targetAxis = "X", speedFactor = 0.2},
     -- Define more spotlights with respective initial angles, amplitude, period, target axis, and speed factor
 }
 

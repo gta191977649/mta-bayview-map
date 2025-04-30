@@ -6,10 +6,12 @@ light_txd = {
     "0xffdba2df",
     "0xb706b947",-- spot lights
     "0x3394fe62",
+    "0x8ea045b6",
 
 
 }
 neon_txd = {
+ 
     "0xc356e407",
     "0xad960d3d",
     "0x005fa675",
@@ -88,6 +90,9 @@ uv_anim_alpha = {
     {"0x452ecd84",1},
     {"0xcac99ec7",0},
     {"0xc841d7ab",0},
+    {"0x06d57459",0},
+    
+
     --{"0x3de7be4a",2},
     
 }
@@ -159,8 +164,7 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
   
     --setColorFilter (0, 0, 0, 0, 0, 0, 0, 0)
 	resetColorFilter()
-    setFarClipDistance (3000)
-    setFogDistance(10)
+    setFarClipDistance (2000)
     --resetFogDistance()
     --resetFarClipDistance()
 
@@ -178,6 +182,7 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
     resetWaterLevel()
     setWaterLevel ( -1000 ) 
     setWorldSpecialPropertyEnabled ("tunnelweatherblend", false )
+    setWaterDrawnLast (true)
 end)
 
 addCommandHandler("ssms", function(_, sizeMB)

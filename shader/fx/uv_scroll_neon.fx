@@ -41,11 +41,20 @@ technique tec0
 {
     pass P0
     {
+        ZEnable = true;
+        ZFunc = LessEqual;
+        ZWriteEnable = false;
+        CullMode = 1;
+        ColorVertex = true;
+        ShadeMode = Gouraud;
+        AlphaBlendEnable = true;
         SrcBlend = SrcAlpha;
         DestBlend = One;
+        AlphaTestEnable = true;
         AlphaRef = 1;
-        AlphaBlendEnable = TRUE;
+        AlphaFunc = GreaterEqual;
         Lighting = false;
+        FogEnable = false;
         // Set the UV transformation based on direction
         TextureTransform[0] = getTextureTransform();
 
